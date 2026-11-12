@@ -51,7 +51,7 @@ input::placeholder{color:var(--muted)}
 .status-line{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .status{font-size:11px;text-transform:uppercase;letter-spacing:.9px;font-weight:600;display:inline-block;padding:2px 7px;border:1px solid #a5b9ad;color:var(--green);line-height:1.6;border-radius:2px}
 .status.corrected{color:#695d30;border-color:#c7bea2}
-.date{font-size:13px;color:var(--muted)}
+.date{font-size:13px;font-weight:500;color:var(--ink);white-space:nowrap}
 .empty{padding:65px 0;text-align:center}
 .empty h2{font:22px var(--serif);margin-bottom:10px}
 .empty p{color:var(--muted)}
