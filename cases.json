@@ -8,6 +8,7 @@
     "entity": "House of Commons · Treasury Committee",
     "title": "A parliamentary call for savings reform still cites a withdrawn HMRC survey",
     "status": "Withdrawn",
+    "severity": "major",
     "changeDate": "2026-03-26",
     "publicDate": "11 September 2025 · statement still online",
     "publicDateShort": "11 Sept 2025",
@@ -61,7 +62,15 @@
         "note": "Names HMRC, IFF Research and the 1,613-person sample and reports the matching 87% result."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Actual current parliamentary page read and preserved through browser; full primary HMRC withdrawal notice and complete ministerial letter; exact survey identity checked independently",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
+    "priority": 1,
+    "finder": "root"
   },
   {
     "id": "bundestag-pesticide-poisoning",
@@ -70,6 +79,7 @@
     "topic": "Climate & environment",
     "use": "Parliamentary motion",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2024-10-09",
     "timing": "Published after retraction",
     "entity": "Die Linke · Bundestag motion 21/8073",
@@ -91,6 +101,12 @@
       "year": 2020
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "environment_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "motion",
@@ -125,7 +141,9 @@
         "note": "Reports 402–433 million annual non-fatal cases across sensitivity analyses and 11,413 fatalities."
       }
     ],
-    "occurrences": []
+    "occurrences": [],
+    "liveMethod": "Complete motion PDF, essential PAN citation chain, formal retraction and later analysis",
+    "priority": 1
   },
   {
     "id": "swiss-public-eye-pesticide-imports",
@@ -134,6 +152,7 @@
     "topic": "Climate & environment",
     "use": "Policy explainer",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2024-10-09",
     "timing": "Still distributed",
     "entity": "Public Eye",
@@ -155,6 +174,12 @@
       "year": 2020
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "environment_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "notice",
@@ -182,6 +207,8 @@
       }
     ],
     "occurrences": [],
+    "liveMethod": "Complete current Public Eye explainer, direct original-study link, formal retraction and later analysis",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -191,6 +218,7 @@
     "topic": "Social policy",
     "use": "Federal policy guidance",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2024-03-28",
     "timing": "Published after correction",
     "entity": "Federal Ministry for Housing, Urban Development and Building",
@@ -213,6 +241,12 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/02/PD24_073_63991.html"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "guidance",
@@ -281,7 +315,9 @@
         }
       ],
       "note": "The June 2025 census-based revision gives 43.4% and 76 minutes."
-    }
+    },
+    "liveMethod": "Actual current federal planning guidance and publication catalogue, essential VCD citation chain, exact Destatis correction and later census revision",
+    "priority": 1
   },
   {
     "id": "german-gender-care-gap-greens",
@@ -290,6 +326,7 @@
     "topic": "Social policy",
     "use": "Political education",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2024-03-28",
     "timing": "Still distributed",
     "entity": "Alliance 90/The Greens · Bundestag parliamentary group",
@@ -312,6 +349,12 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/02/PD24_073_63991.html"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "greens",
@@ -365,6 +408,8 @@
       ],
       "note": "The June 2025 census-based revision gives 43.4% and 76 minutes."
     },
+    "liveMethod": "Actual complete caucus explainer and direct Destatis source link, formal correction and later census revision",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -374,6 +419,7 @@
     "topic": "Public health",
     "use": "Public education and parliamentary evidence",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-09-08",
     "timing": "Updated after correction",
     "entity": "DAK-Gesundheit · parent guide",
@@ -396,6 +442,13 @@
       "url": "https://www.dak.de/dak/unternehmen/reporte-forschung/dak-studie-mediensucht-2023-24_56536"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "guide",
@@ -445,7 +498,9 @@
         }
       ],
       "note": "The corrected report describes the rates as statistically similar."
-    }
+    },
+    "liveMethod": "Complete current DAK parent guide, dated erratum and actual corrected survey report",
+    "priority": 1
   },
   {
     "id": "germany-youth-gaming-bundestag-hearing",
@@ -454,6 +509,7 @@
     "topic": "Public health",
     "use": "Parliamentary evidence",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-09-08",
     "timing": "Still distributed",
     "entity": "Rainer Thomasius · evidence to the Bundestag family committee",
@@ -476,6 +532,13 @@
       "url": "https://www.dak.de/dak/unternehmen/reporte-forschung/dak-studie-mediensucht-2023-24_56536"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "hearing",
@@ -534,6 +597,8 @@
       ],
       "note": "The corrected report describes the rates as statistically similar."
     },
+    "liveMethod": "Actual complete hearing transcript and supplied survey materials, explicit wave identification, formal erratum and corrected survey report",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -543,6 +608,7 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-03-31",
     "timing": "Still distributed",
     "entity": "Tagesschau",
@@ -565,6 +631,13 @@
       "url": "https://caas.content.dak.de/caas/v1/media/227434/data/4e1fc7bc25d1abe1339535a2da6d9be4/250415-download-report-psychreport.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "tagesschau",
@@ -622,7 +695,9 @@
         }
       ],
       "note": "The revised comparison uses the same diagnosis-assignment method for both years."
-    }
+    },
+    "liveMethod": "Complete Tagesschau article, original DAK report, formal correction and replacement report",
+    "priority": 1
   },
   {
     "id": "austria-2026-budget-deficit",
@@ -631,6 +706,7 @@
     "topic": "Public finance",
     "use": "Political reporting",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-10-02",
     "timing": "Published after correction",
     "entity": "Heute",
@@ -654,6 +730,12 @@
       "url": "https://www.bmf.gv.at/presse/pressemeldungen/2026/oktober-2026/defizit.html"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "heute",
@@ -706,7 +788,9 @@
         }
       ],
       "note": "Both releases were issued on 2 October 2026."
-    }
+    },
+    "liveMethod": "Complete current Heute article, original and corrected ministry releases, machine-readable article timestamp",
+    "priority": 1
   },
   {
     "id": "austria-budget-deficit-reuters",
@@ -715,6 +799,7 @@
     "topic": "Public finance",
     "use": "Political reporting",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-10-02",
     "timing": "Still distributed",
     "entity": "Reuters · distributed by Onvista",
@@ -738,6 +823,12 @@
       "url": "https://www.bmf.gv.at/presse/pressemeldungen/2026/oktober-2026/defizit.html"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "original",
@@ -790,7 +881,9 @@
         }
       ],
       "note": "Both releases were issued on 2 October 2026."
-    }
+    },
+    "liveMethod": "Actual complete Reuters report on Onvista, original and corrected ministry releases, machine-readable reporting timestamp",
+    "priority": 1
   },
   {
     "id": "austria-budget-deficit-orf",
@@ -799,6 +892,7 @@
     "topic": "Public finance",
     "use": "Political reporting",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-10-02",
     "timing": "Still distributed",
     "entity": "ORF",
@@ -822,6 +916,12 @@
       "url": "https://www.bmf.gv.at/presse/pressemeldungen/2026/oktober-2026/defizit.html"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "original",
@@ -874,7 +974,9 @@
         }
       ],
       "note": "Both releases were issued on 2 October 2026."
-    }
+    },
+    "liveMethod": "Actual complete ORF report, original and corrected ministry releases, publication timestamp",
+    "priority": 1
   },
   {
     "id": "bundestag-pesticide-poisoning-news",
@@ -883,6 +985,7 @@
     "topic": "Climate & environment",
     "use": "Parliamentary reporting",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2024-10-09",
     "timing": "Published after retraction",
     "entity": "German Bundestag · parliamentary news service",
@@ -904,6 +1007,12 @@
       "year": 2020
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "environment_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "motion",
@@ -947,6 +1056,8 @@
       }
     ],
     "occurrences": [],
+    "liveMethod": "Complete current parliamentary news summary and direct motion link, essential PAN citation chain, formal retraction and later analysis",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -958,6 +1069,7 @@
     "entity": "Heinrich-Böll-Stiftung / FiscalFuture",
     "title": "A 2026 finance-policy handbook teaches estimates from a retracted climate paper",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-12-03",
     "publicDate": "Handbook published February 2026",
     "publicDateShort": "Feb 2026",
@@ -1010,7 +1122,14 @@
         "note": "The exact paper linked twice from handbook page 63."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Live browser pages + complete PDF downloads, page rendering and hyperlink annotations",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 2
   },
   {
     "id": "uk-tourism-spending-policy",
@@ -1019,6 +1138,7 @@
     "topic": "Public finance",
     "use": "Policy evidence review",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-09-04",
     "timing": "Published after correction",
     "entity": "Department for Culture, Media and Sport · Ipsos review",
@@ -1041,6 +1161,12 @@
       "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/leisureandtourism/articles/traveltrends/2024"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "review",
@@ -1101,7 +1227,9 @@
         }
       ],
       "note": "Both columns use the UK total for the same survey year. The exact visit estimate changed by 39,000."
-    }
+    },
+    "liveMethod": "Actual complete GOV.UK HTML, ONS original and corrected releases and Table 1 spreadsheets, two independent reviews",
+    "priority": 2
   },
   {
     "id": "uk-tourism-spending-parliamentary-evidence",
@@ -1110,6 +1238,7 @@
     "topic": "Public finance",
     "use": "Parliamentary evidence",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-09-04",
     "timing": "Still distributed",
     "entity": "Department for Culture, Media and Sport",
@@ -1132,6 +1261,12 @@
       "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/leisureandtourism/articles/traveltrends/2024"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "evidence",
@@ -1184,7 +1319,9 @@
         }
       ],
       "note": "Both columns use the UK total for the same survey year. The exact visit estimate changed by 39,000."
-    }
+    },
+    "liveMethod": "Complete current official committee evidence, its ONS reference, original and corrected ONS releases and correction methods",
+    "priority": 2
   },
   {
     "id": "uk-capital-gains-tax-liabilities",
@@ -1193,6 +1330,7 @@
     "topic": "Public finance",
     "use": "Budget policy commentary",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-08-27",
     "timing": "Published after correction",
     "entity": "The World Financial Review · UK budget commentary",
@@ -1215,6 +1353,13 @@
       "url": "https://www.gov.uk/government/statistics/capital-gains-tax-statistics/capital-gains-tax-commentary--2"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "review",
@@ -1272,7 +1417,9 @@
         }
       ],
       "note": "The revised release also incorporates updates to previously provisional figures."
-    }
+    },
+    "liveMethod": "Complete current World Financial Review article, archived original and revised HMRC series, formal HMRC correction",
+    "priority": 2
   },
   {
     "id": "england-families-temporary-bb",
@@ -1281,6 +1428,7 @@
     "topic": "Social policy",
     "use": "Government policy plans",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-02-26",
     "timing": "Still distributed",
     "entity": "UK Government · National Plan to End Homelessness",
@@ -1303,6 +1451,13 @@
       "url": "https://www.gov.uk/government/statistics/statutory-homelessness-in-england-april-to-june-2025/statutory-homelessness-in-england-april-to-june-2025"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases",
+      "policy_cases"
+    ],
     "sources": [
       {
         "id": "plan",
@@ -1363,7 +1518,9 @@
         }
       ],
       "note": "The figures are quarterly snapshots."
-    }
+    },
+    "liveMethod": "Complete current national plan, original quarterly release, formal correction and revised workbook cells",
+    "priority": 2
   },
   {
     "id": "england-families-bb-child-poverty-strategy",
@@ -1372,6 +1529,7 @@
     "topic": "Social policy",
     "use": "Government policy plans",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-02-26",
     "timing": "Still distributed",
     "entity": "Cabinet Office · Child Poverty Strategy",
@@ -1394,6 +1552,13 @@
       "url": "https://www.gov.uk/government/statistics/statutory-homelessness-in-england-april-to-june-2025/statutory-homelessness-in-england-april-to-june-2025"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases",
+      "policy_cases"
+    ],
     "sources": [
       {
         "id": "strategy",
@@ -1454,7 +1619,9 @@
         }
       ],
       "note": "The figures are quarterly snapshots."
-    }
+    },
+    "liveMethod": "Actual complete current Child Poverty Strategy, direct official table citation, original quarterly release and formal correction",
+    "priority": 2
   },
   {
     "id": "england-families-bb-haringey-evidence",
@@ -1463,6 +1630,7 @@
     "topic": "Social policy",
     "use": "Local policy evidence",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-02-26",
     "timing": "Published after correction",
     "entity": "Haringey Council · homelessness evidence review",
@@ -1485,6 +1653,13 @@
       "url": "https://www.gov.uk/government/statistics/statutory-homelessness-in-england-april-to-june-2025/statutory-homelessness-in-england-april-to-june-2025"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases",
+      "policy_cases"
+    ],
     "sources": [
       {
         "id": "original",
@@ -1561,7 +1736,9 @@
         }
       ],
       "note": "The figures are quarterly snapshots."
-    }
+    },
+    "liveMethod": "Actual complete Haringey evidence review, current cabinet record and direct distribution, original national statistic and formal correction",
+    "priority": 2
   },
   {
     "id": "uk-autism-policy-review",
@@ -1572,6 +1749,7 @@
     "entity": "Department of Health and Social Care · independent interim review",
     "title": "A UK government-commissioned autism review retains a withdrawn prevalence finding",
     "status": "Withdrawn",
+    "severity": "major",
     "changeDate": "2026-05-18",
     "publicDate": "31 March 2026 · interim report · updated 10 June 2026",
     "publicDateShort": "31 Mar 2026",
@@ -1641,7 +1819,16 @@
         "note": "Its section 8.2.2 discusses earlier adult prevalence surveys rather than repeating the withdrawn 2023/24 percentage. The original interim report remains separately available."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Fresh complete current GOV.UK HTML + complete NHS replacement chapter + original institutional PDF",
+    "reviewers": [
+      "health_cases",
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 2,
+    "finder": "health_cases"
   },
   {
     "id": "oecd-autism-prevalence",
@@ -1652,6 +1839,7 @@
     "entity": "OECD",
     "title": "An OECD policy report retains a withdrawn English autism prevalence finding",
     "status": "Withdrawn",
+    "severity": "major",
     "changeDate": "2026-05-18",
     "publicDate": "26 March 2026",
     "publicDateShort": "26 Mar 2026",
@@ -1713,7 +1901,16 @@
         "note": "Confirms the exact withdrawal date and publication of the revised findings."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Complete current OECD chapter, exact NHS source reference, revised NHS chapter and original survey report",
+    "reviewers": [
+      "health_cases",
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 2,
+    "finder": "health_cases"
   },
   {
     "id": "uk-nhs-productivity-treasury",
@@ -1722,6 +1919,7 @@
     "topic": "Public finance",
     "use": "Response to Parliament",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-03-17",
     "timing": "Still distributed",
     "entity": "HM Treasury · response to the Public Accounts Committee",
@@ -1744,6 +1942,13 @@
       "url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/publicservicesproductivity/datasets/publicserviceproductivityestimateshealthcareengland"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "treasury",
@@ -1798,7 +2003,9 @@
         }
       ],
       "note": "Figure 3 isolates the effect of the formula correction."
-    }
+    },
+    "liveMethod": "Complete Treasury command paper and live government and parliamentary catalogues, ONS correction and data tables, two independent reviews",
+    "priority": 3
   },
   {
     "id": "austria-poverty-social-exclusion",
@@ -1807,6 +2014,7 @@
     "topic": "Social policy",
     "use": "Public policy information",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-05-12",
     "timing": "Still distributed",
     "entity": "Armutskonferenz · Austrian poverty facts",
@@ -1829,6 +2037,12 @@
       "url": "https://www.statistik.at/fileadmin/pages/338/Tabellenband_EUSILC_2025.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "facts",
@@ -1881,7 +2095,9 @@
         }
       ],
       "note": "The estimates are from the same survey year."
-    }
+    },
+    "liveMethod": "Complete current poverty network facts page, original release, revised survey tables and corrected official factsheet",
+    "priority": 3
   },
   {
     "id": "austria-poverty-kathpress-budget-reporting",
@@ -1890,6 +2106,7 @@
     "topic": "Social policy",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-05-12",
     "timing": "Still distributed",
     "entity": "Kathpress · published by katholisch.at",
@@ -1912,6 +2129,12 @@
       "url": "https://www.statistik.at/fileadmin/pages/338/Tabellenband_EUSILC_2025.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "kathpress",
@@ -1965,6 +2188,8 @@
       ],
       "note": "The estimates are from the same survey year."
     },
+    "liveMethod": "Complete current Kathpress article on katholisch.at, explicit Statistics Austria attribution, original survey release and formal correction",
+    "priority": 3,
     "quoteLang": "de"
   },
   {
@@ -1974,6 +2199,7 @@
     "topic": "Social policy",
     "use": "Political commentary",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-05-12",
     "timing": "Published after correction",
     "entity": "Unsere Zeitung",
@@ -1996,6 +2222,12 @@
       "url": "https://www.statistik.at/fileadmin/pages/338/Tabellenband_EUSILC_2025.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "opinion",
@@ -2049,6 +2281,8 @@
       ],
       "note": "The estimates are from the same survey year."
     },
+    "liveMethod": "Actual complete current commentary, stated SILC source, original Statistics Austria release and formal correction",
+    "priority": 3,
     "quoteLang": "de"
   },
   {
@@ -2058,6 +2292,7 @@
     "topic": "Public finance",
     "use": "Political reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "April 2026",
     "timing": "Still distributed",
@@ -2081,6 +2316,12 @@
       "url": "https://nadel.ethz.ch/swiss-panel/2025.html"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "video",
@@ -2130,7 +2371,9 @@
         "claim": "The original programme audio still includes the introduction. SRF has a separate correction entry.",
         "source": "episode"
       }
-    ]
+    ],
+    "liveMethod": "Current SRF publisher video transcript, independently verified original broadcast audio, formal ETH and SRF corrections, two independent reviews",
+    "priority": 3
   },
   {
     "id": "diw-pension-childcare-credits",
@@ -2139,6 +2382,7 @@
     "topic": "Public policy & society",
     "use": "Pension-policy reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-06-18",
     "timing": "Still distributed",
     "entity": "Frankfurter Rundschau",
@@ -2160,6 +2404,12 @@
       "year": 2025
     },
     "checked": "2026-11-11",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "health_cases",
+      "root"
+    ],
     "sources": [
       {
         "id": "fr",
@@ -2186,6 +2436,8 @@
         "note": "Documents a code error calculating entitlements without child-rearing credits; the study’s broad conclusion remains."
       }
     ],
+    "liveMethod": "Complete current actual Frankfurter Rundschau HTML, corrected study page 187 and formal erratum, with two independent agent reviews",
+    "priority": 4,
     "numbers": {
       "caption": "Effect of existing child-rearing credits on West German pension-entitlement gaps",
       "beforeLabel": "Still reported",
@@ -2198,7 +2450,8 @@
         }
       ],
       "note": "Birth cohorts 1952–1959, accrued entitlements at age 60. Each comparison runs from the hypothetical gap without credits to the gap with credits; it is not a time trend or an evaluation of the proposed 2025 reform."
-    }
+    },
+    "finder": "environment_cases"
   },
   {
     "id": "swiss-ahv-2033-deficit",
@@ -2207,6 +2460,7 @@
     "topic": "Public finance",
     "use": "Political reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2024-09-16",
     "timing": "Still distributed",
     "entity": "Blick · pension financing explainer",
@@ -2229,6 +2483,12 @@
       "url": "https://www.newsd.admin.ch/newsd/message/attachments/86816.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "blick",
@@ -2289,6 +2549,8 @@
       ],
       "note": "The revised projections also use updated assumptions."
     },
+    "liveMethod": "Complete current Blick article, original funding table, both BSV notices and exact corrected Federal Council table, two independent reviews",
+    "priority": 4,
     "occurrences": []
   },
   {
@@ -2298,6 +2560,7 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-06-24",
     "timing": "Still distributed",
     "entity": "University of Geneva · Faculty of Medicine",
@@ -2321,6 +2584,12 @@
       "url": "https://www.nature.com/articles/s41591-025-04181-w"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases"
+    ],
     "sources": [
       {
         "id": "geneva",
@@ -2370,7 +2639,9 @@
         "claim": "The English version gives the same progression-free survival results and suggests earlier scheduling could improve effectiveness.",
         "source": "english"
       }
-    ]
+    ],
+    "liveMethod": "Actual French and English faculty pages captured in a browser, publisher’s original trial and formal retraction, two independent reviews",
+    "priority": 4
   },
   {
     "id": "uk-producer-prices-tuc",
@@ -2379,6 +2650,7 @@
     "topic": "Public finance",
     "use": "Policy report",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2025-10-22",
     "timing": "Still distributed",
     "entity": "Trades Union Congress",
@@ -2401,6 +2673,12 @@
       "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/producerpriceinflation/june2023includingservicesapriltomarch2023"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "tuc",
@@ -2448,6 +2726,8 @@
       ],
       "note": "The corrected release incorporates both the chain-linking fix and the revised historical weights."
     },
+    "liveMethod": "Current TUC policy PDF, original ONS table and formal ONS methodological correction, independently checked by two reviewers",
+    "priority": 4,
     "occurrences": []
   },
   {
@@ -2457,6 +2737,7 @@
     "topic": "Public finance",
     "use": "Monetary policy accountability",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2025-10-22",
     "timing": "Still distributed",
     "entity": "Bank of England · Andrew Bailey",
@@ -2479,6 +2760,12 @@
       "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/producerpriceinflation/june2023includingservicesapriltomarch2023"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "original",
@@ -2518,6 +2805,8 @@
       ],
       "note": "The corrected release incorporates both the chain-linking fix and the revised historical weights."
     },
+    "liveMethod": "Actual complete governor letter and ONS attribution, original output-price series and formal ONS correction",
+    "priority": 4,
     "occurrences": []
   },
   {
@@ -2529,6 +2818,7 @@
     "entity": "ZDFheute",
     "title": "ZDF still headlines a hospital-treatment figure corrected the next day",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-04-17",
     "publicDate": "Article published 16 April 2026 · still available",
     "publicDateShort": "16 Apr 2026",
@@ -2581,7 +2871,14 @@
         "note": "The correction affects a scientific yearbook chapter, rather than retracting the underlying BURDEN study."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Three independent complete current-article checks + full primary erratum",
+    "reviewers": [
+      "policy_cases",
+      "health_cases",
+      "root"
+    ],
+    "priority": 5
   },
   {
     "id": "uk-gambling-influencer-policy",
@@ -2592,6 +2889,7 @@
     "entity": "GambleAware · Social Finance",
     "title": "A gambling policy report still presents findings from a retracted 41-study review",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-02-09",
     "publicDate": "September 2025 · current research-library download",
     "publicDateShort": "Sept 2025",
@@ -2644,7 +2942,15 @@
         "note": "The exact review identified by the report’s footnote 32."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Fresh complete 75-page report and live library page; affected PDF page visually read; full primary Springer retraction",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
+    "priority": 5,
+    "finder": "root"
   },
   {
     "id": "scottish-health-survey-impairments",
@@ -2653,6 +2959,7 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-03-19",
     "timing": "Still distributed",
     "entity": "STV News · PA Media",
@@ -2675,6 +2982,13 @@
       "url": "https://www.gov.scot/publications/scottish-health-survey-2024-volume-1-main-report/"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "stv",
@@ -2724,7 +3038,9 @@
         }
       ],
       "note": "The categories overlap."
-    }
+    },
+    "liveMethod": "Complete current STV article, named Scottish Health Survey, formal correction and corrected chapter",
+    "priority": 5
   },
   {
     "id": "england-heat-mortality-estimate",
@@ -2733,6 +3049,7 @@
     "topic": "Climate & environment",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-07-24",
     "timing": "Still distributed",
     "entity": "London School of Hygiene & Tropical Medicine",
@@ -2755,6 +3072,13 @@
       "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/climaterelatedmortalityandhospitaladmissionsenglandandwales/1988to2022"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "lshtm",
@@ -2789,7 +3113,9 @@
         "note": "Uses revised data, methods and coverage, with a different hottest-days threshold."
       }
     ],
-    "occurrences": []
+    "occurrences": [],
+    "liveMethod": "Complete live LSHTM expert commentary, exact ONS notice, correction methods and replacement analysis",
+    "priority": 5
   },
   {
     "id": "england-heat-mortality-cieh",
@@ -2798,6 +3124,7 @@
     "topic": "Climate & environment",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-07-24",
     "timing": "Still distributed",
     "entity": "Chartered Institute of Environmental Health · Environmental Health News",
@@ -2820,6 +3147,13 @@
       "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/climaterelatedmortalityandhospitaladmissionsenglandandwales/1988to2022"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "cieh",
@@ -2854,7 +3188,9 @@
         "note": "Uses revised data, methods and coverage, with a different hottest-days threshold."
       }
     ],
-    "occurrences": []
+    "occurrences": [],
+    "liveMethod": "Actual complete CIEH article, formal ONS notice, correction methods and replacement analysis",
+    "priority": 5
   },
   {
     "id": "scotland-opioid-dependence-mission",
@@ -2863,6 +3199,7 @@
     "topic": "Public health",
     "use": "Government policy report",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-06-23",
     "timing": "Published after correction",
     "entity": "Scottish Government · National Mission on Drugs",
@@ -2885,6 +3222,13 @@
       "url": "https://publichealthscotland.scot/publications/estimated-prevalence-of-opioid-dependence-in-scotland/estimated-prevalence-of-opioid-dependence-in-scotland-201415-to-202324/"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "mission",
@@ -2916,6 +3260,8 @@
       ],
       "note": "Both estimates are reported with a prevalence of 1.13%."
     },
+    "liveMethod": "Actual complete Scottish Government reports and Public Health Scotland publication and correction note, two independent reviews",
+    "priority": 5,
     "occurrences": []
   },
   {
@@ -2927,6 +3273,7 @@
     "entity": "Smart Thinking · policy research digest",
     "title": "A policy digest still says more than half of children will be in Universal Credit households",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "Correction date unclear",
     "publicDate": "29 January 2026",
@@ -2972,7 +3319,15 @@
         "note": "The publisher’s abstract and executive summary now give 42%."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Current Smart Thinking summary and report link; primary correction PDF and current report landing page",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
+    "priority": 6,
+    "finder": "root"
   },
   {
     "id": "germany-prevention-programme-reach",
@@ -2981,6 +3336,7 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "September 2024",
     "timing": "Still distributed",
@@ -3004,6 +3360,12 @@
       "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praeventionsbericht/2023_GKV_MD_Praventionsbericht_barrierefrei.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "release",
@@ -3040,7 +3402,9 @@
         }
       ],
       "note": "The 2021 comparator is 5,961,940 people."
-    }
+    },
+    "liveMethod": "Current press release and professional reporting, original report and actual corrected PDF erratum, two independent reviews",
+    "priority": 6
   },
   {
     "id": "germany-prevention-reach-bvpg",
@@ -3049,6 +3413,7 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "September 2024",
     "timing": "Still distributed",
@@ -3072,6 +3437,12 @@
       "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praeventionsbericht/2023_GKV_MD_Praventionsbericht_barrierefrei.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "notice",
@@ -3109,6 +3480,8 @@
       ],
       "note": "The 2021 comparator is 5,961,940 people."
     },
+    "liveMethod": "Actual complete BVPG HTML, named report and original-source link, corrected report erratum",
+    "priority": 6,
     "quoteLang": "de"
   },
   {
@@ -3118,6 +3491,7 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "September 2024",
     "timing": "Still distributed",
@@ -3141,6 +3515,12 @@
       "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praeventionsbericht/2023_GKV_MD_Praventionsbericht_barrierefrei.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "notice",
@@ -3178,6 +3558,8 @@
       ],
       "note": "The 2021 comparator is 5,961,940 people."
     },
+    "liveMethod": "Actual complete Ärzteblatt report, exact original figures, corrected report erratum",
+    "priority": 6,
     "quoteLang": "de"
   },
   {
@@ -3187,6 +3569,7 @@
     "topic": "Social policy",
     "use": "Policy research distribution",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "June 2026",
     "timing": "Still distributed",
@@ -3210,6 +3593,13 @@
       "url": "https://collections.fes.de/publikationen/download/pdf/1988386"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "catalogue",
@@ -3273,7 +3663,9 @@
         "claim": "The March edition remains available alongside a separately labelled corrected edition.",
         "source": "ukraine"
       }
-    ]
+    ],
+    "liveMethod": "Complete original catalogue, both actual paper editions, fresh Ukraine library and gender-policy listing, two independent reviews",
+    "priority": 6
   },
   {
     "id": "bundestag-chatgpt-learning",
@@ -3284,6 +3676,7 @@
     "entity": "German Bundestag · Scientific Services",
     "title": "A parliamentary research brief retains a retracted ChatGPT learning result",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-04-22",
     "publicDate": "Brief completed 25 November 2025 · still distributed",
     "publicDateShort": "25 Nov 2025",
@@ -3336,7 +3729,14 @@
         "note": "The specific meta-analysis summarized in the Bundestag briefing."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Current complete official PDF + exact DOI annotations + primary retraction notice",
+    "reviewers": [
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 7
   },
   {
     "id": "uk-leder-mortality-reporting",
@@ -3347,6 +3747,7 @@
     "entity": "ITV News",
     "title": "An ITV investigation retains causes of death from a withdrawn NHS-commissioned report",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-01-27",
     "publicDate": "2 September 2025",
     "publicDateShort": "2 Sept 2025",
@@ -3416,7 +3817,16 @@
         "note": "Contains the exact original percentages reproduced in the news reports."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Current complete ITV article, exact original and replacement report tables, ministerial correction and university distribution page",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases",
+      "policy_cases"
+    ],
+    "priority": 7,
+    "finder": "health_cases"
   },
   {
     "id": "uk-leder-standard-mortality-reporting",
@@ -3427,6 +3837,7 @@
     "entity": "The Standard",
     "title": "The Standard retains a corrected count and share of avoidable deaths",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-01-27",
     "publicDate": "2 September 2025",
     "publicDateShort": "2 Sept 2025",
@@ -3496,7 +3907,16 @@
         "note": "Contains the exact original percentages reproduced in the news reports."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Complete current Standard HTML, exact original and replacement report tables, ministerial correction and university distribution page",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "environment_cases",
+      "policy_cases"
+    ],
+    "priority": 7,
+    "finder": "health_cases"
   },
   {
     "id": "uk-benefits-claimant-count",
@@ -3507,6 +3927,7 @@
     "entity": "The Independent",
     "title": "Benefits guidance retains an IFS claimant count corrected from 900,000 to 600,000",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "Correction date not stated",
     "publicDate": "19 March 2025",
@@ -3545,7 +3966,16 @@
         "note": "Prominent correction changes 900,000 to 600,000; corrected analysis specifies UC-health recipients without PIP and the conditional policy scenario."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Fresh complete actual newspaper HTML plus complete primary IFS web text",
+    "reviewers": [
+      "policy_cases",
+      "health_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 8,
+    "finder": "policy_cases"
   },
   {
     "id": "eu-retail-investment-inducements",
@@ -3554,6 +3984,7 @@
     "topic": "Public finance",
     "use": "Policy opinion and parliamentary record",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2023-02-08",
     "timing": "Still distributed",
     "entity": "European Commission · Financial Services User Group",
@@ -3576,6 +4007,13 @@
       "url": "https://op.europa.eu/en/publication-detail/-/publication/d83364e5-ab55-11ed-b508-01aa75ed71a1/language-en/"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "opinion",
@@ -3615,7 +4053,9 @@
         }
       ],
       "note": "The sample consisted of 176 financial products."
-    }
+    },
+    "liveMethod": "Complete official advisory opinion, current EU catalogue, exact study citation and formal Commission correction",
+    "priority": 9
   },
   {
     "id": "german-investment-inducements-parliamentary-question",
@@ -3624,6 +4064,7 @@
     "topic": "Public finance",
     "use": "Parliamentary question",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2023-02-08",
     "timing": "Still distributed",
     "entity": "CDU/CSU · Bundestag question 20/5487 and reply 20/5905",
@@ -3646,6 +4087,13 @@
       "url": "https://op.europa.eu/en/publication-detail/-/publication/d83364e5-ab55-11ed-b508-01aa75ed71a1/language-en/"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "bundestag",
@@ -3686,6 +4134,8 @@
       ],
       "note": "The sample consisted of 176 financial products."
     },
+    "liveMethod": "Actual complete original Bundestag question and published reply, correct attribution of the reproduced preamble, formal Commission correction",
+    "priority": 9,
     "quoteLang": "de"
   },
   {
@@ -3697,6 +4147,7 @@
     "entity": "The Independent · syndicated science explainer",
     "title": "A public autism-drug explainer retains a positive trial result after retraction",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-01-29",
     "publicDate": "23 September 2025",
     "publicDateShort": "23 Sept 2025",
@@ -3765,7 +4216,16 @@
         "note": "A separate article reports the retraction; the earlier explainer does not carry that status update."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Fresh complete actual Independent and Conversation HTML + exact DOI anchor + full formal notice read visually + current publisher and Crossmark records",
+    "reviewers": [
+      "health_cases",
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 9,
+    "finder": "health_cases"
   },
   {
     "id": "austria-medienimpulse-chatgpt-learning",
@@ -3774,6 +4234,7 @@
     "topic": "Public policy & society",
     "use": "Teacher education",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-04-22",
     "timing": "Still distributed",
     "entity": "Medienimpulse · Austrian education-ministry journal",
@@ -3795,6 +4256,12 @@
       "year": 2025
     },
     "checked": "2026-11-11",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "health_cases",
+      "root"
+    ],
     "sources": [
       {
         "id": "article",
@@ -3844,7 +4311,10 @@
         "dateLabel": "6 May 2025 · now retracted",
         "note": "The exact paper cited on page 58; also underlies the project’s German Bundestag example."
       }
-    ]
+    ],
+    "liveMethod": "Actual complete current 58-page PDF, current full article HTML, official issue contents, ministry distribution route and publisher-imprint check",
+    "priority": 10,
+    "finder": "environment_cases"
   },
   {
     "id": "zeit-drought-severity",
@@ -3855,6 +4325,7 @@
     "entity": "DIE ZEIT",
     "title": "A drought article still reports figures from a study retracted in September 2026",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-09-02",
     "publicDate": "Article published 6 June 2025 · still available",
     "publicDateShort": "6 Jun 2025",
@@ -3899,7 +4370,15 @@
         "note": "The paper identified by the article’s translated title, named researchers and results. The publisher record now marks it as retracted."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent complete live-browser reads + primary retraction notice",
+    "reviewers": [
+      "environment_cases",
+      "health_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 10
   },
   {
     "id": "uk-ai-safety-scientific-productivity",
@@ -3908,6 +4387,7 @@
     "topic": "Education & AI",
     "use": "AI-policy evidence",
     "status": "Withdrawn",
+    "severity": "major",
     "changeDate": "2025-05-20",
     "timing": "Still distributed",
     "entity": "International AI Safety Report · UK parliamentary deposit",
@@ -3929,6 +4409,12 @@
       "year": 2024
     },
     "checked": "2026-11-10",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "report",
@@ -3986,7 +4472,9 @@
         "dateLabel": "3 February 2026",
         "note": "A newer edition exists; both independent reviewers found no Toner-Rodgers citation in its full HTML."
       }
-    ]
+    ],
+    "liveMethod": "Actual complete current 2025 HTML, actual 298-page parliamentary PDF, full arXiv/MIT primary notices, and two independent current-distribution/version checks",
+    "priority": 11
   },
   {
     "id": "broadcasting-council-counts",
@@ -3997,6 +4485,7 @@
     "entity": "Frankfurter Neue Presse / IPPEN",
     "title": "A public-broadcasting story retains council figures corrected by the study’s publisher",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-06-11",
     "publicDate": "Article updated 3 April 2025 · still available",
     "publicDateShort": "Updated 3 Apr 2025",
@@ -4042,7 +4531,14 @@
         "note": "The publisher provides the corrected study and correction list."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent full live-browser reads + primary correction PDF",
+    "reviewers": [
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 12
   },
   {
     "id": "uk-deadlines-policy-evidence",
@@ -4053,6 +4549,7 @@
     "entity": "Competition and Markets Authority",
     "title": "A UK regulator’s evidence review still uses a deadline experiment retracted in September 2026",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-09-02",
     "publicDate": "5 April 2022 · current government reference document",
     "publicDateShort": "5 Apr 2022",
@@ -4105,7 +4602,15 @@
         "note": "Matches the CMA review’s bibliographic reference."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Complete current CMA HTML and PDF; exact bibliography entry and formal retraction notice",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
+    "priority": 12,
+    "finder": "root"
   },
   {
     "id": "bundestag-vaccination-mortality",
@@ -4116,6 +4621,7 @@
     "entity": "Helmut Sterz · Bundestag hearing submission",
     "title": "A parliamentary witness statement still cites a retracted mortality paper",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-08-11",
     "publicDate": "Statement dated 16 March 2026 · still distributed",
     "publicDateShort": "16 Mar 2026",
@@ -4176,7 +4682,14 @@
         "note": "The paper identified by the witness’s footnote."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Current official hearing page + full witness PDF and rendered claim page + primary publisher update",
+    "reviewers": [
+      "health_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 13
   },
   {
     "id": "germany-glyphosate-parliament",
@@ -4187,6 +4700,7 @@
     "entity": "Bundestag Scientific Services",
     "title": "A parliamentary research summary retains safety conclusions from a withdrawn glyphosate review",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "Late 2025",
     "publicDate": "28 June 2016",
@@ -4241,12 +4755,22 @@
         "note": "Confirms the original article and linked formal retraction."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Fresh complete actual current catalogue PDF, full text and relevant page image; current catalogue browser listing; complete formal notice read by root and both independent reviewers",
+    "reviewers": [
+      "policy_cases",
+      "health_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 30,
+    "finder": "policy_cases"
   },
   {
     "studyId": "10.1038/s41586-024-07219-0",
     "topic": "Climate & environment",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-12-03",
     "timing": "Still distributed",
     "change": "Nature retracted the paper after data and modelling problems required revisions too extensive for a correction.",
@@ -4257,6 +4781,12 @@
       "year": 2024
     },
     "checked": "2026-11-11",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "health_cases",
+      "root"
+    ],
     "id": "swiss-eudr-climate-costs",
     "region": "Switzerland",
     "use": "Policy impact assessment",
@@ -4320,7 +4850,10 @@
         "dateLabel": "17 April 2024",
         "note": "The original paper underlying both public-policy occurrences; these are further uses of the same study already documented elsewhere in the project."
       }
-    ]
+    ],
+    "liveMethod": "Current official catalogue + actual complete 134-page PDF, exact footnote/reference mapping and independent scope checks",
+    "priority": 31,
+    "finder": "environment_cases"
   },
   {
     "id": "uk-conservation-honesty-toolkit",
@@ -4331,6 +4864,7 @@
     "entity": "Behavioural Insights Team · Rare",
     "title": "A conservation policy toolkit still recommends a signing technique backed by retracted research",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2021-09-13",
     "publicDate": "2019 report · currently offered for download",
     "publicDateShort": "2019",
@@ -4383,7 +4917,15 @@
         "note": "The bibliographic identity matches reference 107 in the toolkit."
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "liveMethod": "Fresh publisher landing page and exact PDF; all-page independent visual review; affected page rendered and read; full primary PNAS notice",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
+    "priority": 35,
+    "finder": "root"
   },
   {
     "id": "climate-damages-finance",
@@ -4394,6 +4936,7 @@
     "title": "A climate-finance explainer still uses the retracted $38 trillion estimate",
     "publicDateShort": "23 Oct 2024",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-12-03",
     "claim": "The backgrounder says climate damages will cost around $38 trillion per year by 2050, linking to the study’s institutional press release.",
     "change": "Nature retracted the underlying economic-damages paper after data and analysis problems required changes too substantial for a correction.",
@@ -4444,6 +4987,14 @@
       }
     ],
     "checked": "2026-11-10",
+    "liveMethod": "Browser",
+    "reviewers": [
+      "environment_cases",
+      "health_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 104,
     "region": "International",
     "publicDate": "23 October 2024"
   },
@@ -4456,6 +5007,7 @@
     "title": "A policing argument retains the inference its cited study’s authors withdrew",
     "publicDateShort": "3 Jun 2020",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2020-07-10",
     "claim": "A commentary quotes a 2019 study as finding no significant anti-Black disparity in the likelihood of being fatally shot by police.",
     "change": "The authors retracted the paper and said its data could not support conclusions about racial disparities in the probability of being shot.",
@@ -4498,6 +5050,13 @@
       }
     ],
     "checked": "2026-11-10",
+    "liveMethod": "Browser",
+    "reviewers": [
+      "policy_cases",
+      "health_cases",
+      "root"
+    ],
+    "priority": 105,
     "region": "International",
     "publicDate": "3 June 2020"
   },
@@ -4510,6 +5069,7 @@
     "entity": "German rheumatology society · DGRh",
     "title": "A patient guideline retains an avacopan recommendation after its pivotal trial was retracted",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-06-29",
     "publicDate": "Patient version 1.0 · currently offered for download",
     "publicDateShort": "Undated",
@@ -4586,7 +5146,15 @@
         "note": "The pivotal trial explicitly used as the recommendation’s evidentiary basis."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Live catalogue entry expanded, complete patient PDF with all-page visual checks, primary NEJM notice and EMA decision",
+    "reviewers": [
+      "health_cases",
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 1
   },
   {
     "id": "avacopan-professional-guideline",
@@ -4597,6 +5165,7 @@
     "entity": "German rheumatology society · DGRh professional guideline",
     "title": "A professional guideline retains an avacopan recommendation after the trial’s retraction",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-06-29",
     "publicDate": "2025 professional guideline edition · recommendation dated 2023",
     "publicDateShort": "2025",
@@ -4673,7 +5242,15 @@
         "note": "The pivotal trial explicitly used as the recommendation’s evidentiary basis."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Fresh complete professional PDF, recommendation 5.4, evidence discussion and reference 153, with the current society catalogue checked 11 November 2026",
+    "reviewers": [
+      "health_cases",
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 1
   },
   {
     "id": "swiss-public-eye-pesticide-atlas",
@@ -4682,6 +5259,7 @@
     "topic": "Climate & environment",
     "use": "Public education",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2024-10-09",
     "timing": "Still distributed",
     "entity": "Public Eye · Heinrich Böll Foundation",
@@ -4703,6 +5281,12 @@
       "year": 2020
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "environment_cases",
+      "health_cases"
+    ],
     "sources": [
       {
         "id": "notice",
@@ -4738,6 +5322,8 @@
       }
     ],
     "occurrences": [],
+    "liveMethod": "Actual complete Swiss atlas PDF, current download and print-order catalogue, formal retraction and later analysis",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -4747,6 +5333,7 @@
     "topic": "Social policy",
     "use": "Public education",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2024-03-28",
     "timing": "Still distributed",
     "entity": "Federal Association of Municipal Equality Offices · BAG",
@@ -4769,6 +5356,12 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/02/PD24_073_63991.html"
     },
     "checked": "2026-11-11",
+    "finder": "root",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "bag",
@@ -4822,6 +5415,8 @@
       ],
       "note": "The June 2025 census-based revision gives 43.4% and 76 minutes."
     },
+    "liveMethod": "Actual complete BAG facts page, ministry attribution, exact Destatis correction and later census revision",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -4831,6 +5426,7 @@
     "topic": "Public health",
     "use": "Public education",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-09-08",
     "timing": "Still distributed",
     "entity": "AOK",
@@ -4853,6 +5449,13 @@
       "url": "https://www.dak.de/dak/unternehmen/reporte-forschung/dak-studie-mediensucht-2023-24_56536"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "aok",
@@ -4903,6 +5506,8 @@
       ],
       "note": "The corrected report describes the rates as statistically similar."
     },
+    "liveMethod": "Actual complete medically reviewed AOK article, named survey source and exact original figures, formal erratum and corrected report",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -4912,6 +5517,7 @@
     "topic": "Public health",
     "use": "Public health information",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-03-31",
     "timing": "Still distributed",
     "entity": "Federal Institute of Public Health · men’s health portal",
@@ -4934,6 +5540,13 @@
       "url": "https://caas.content.dak.de/caas/v1/media/227434/data/4e1fc7bc25d1abe1339535a2da6d9be4/250415-download-report-psychreport.pdf"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "men",
@@ -4992,6 +5605,8 @@
       ],
       "note": "The revised comparison uses the same diagnosis-assignment method for both years."
     },
+    "liveMethod": "Actual complete federal portal republication and source attribution, original report, formal correction and replacement report",
+    "priority": 1,
     "quoteLang": "de"
   },
   {
@@ -5003,6 +5618,7 @@
     "entity": "Baden-Württemberg Environment Ministry",
     "title": "A school climate resource retains estimates from a retracted paper",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-12-03",
     "publicDate": "September 2025 · second updated edition",
     "publicDateShort": "Sept 2025",
@@ -5055,7 +5671,14 @@
         "note": "The climate entry still links the September 2025 PDF."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Current official classroom catalogue and exact complete PDF, with page 17 independently read on 11 November 2026",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 2
   },
   {
     "id": "forum-climate-damage-business",
@@ -5066,6 +5689,7 @@
     "entity": "forum Nachhaltig Wirtschaften · signed magazine article",
     "title": "A business magazine cites a withdrawn climate-damage estimate in adaptation guidance",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-12-03",
     "publicDate": "1 March 2026",
     "publicDateShort": "1 Mar 2026",
@@ -5110,7 +5734,14 @@
         "note": "The article names the original study and retains the $38 trillion estimate without its retraction status."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Complete current web-research retrieval of the signed article, including its date, study paragraph and author biography, checked 11 November 2026",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 2
   },
   {
     "id": "uk-capital-gains-tax-professional-paraplanner",
@@ -5119,6 +5750,7 @@
     "topic": "Public finance",
     "use": "Professional reporting",
     "status": "Corrected",
+    "severity": "minor",
     "changeDate": "2026-08-27",
     "timing": "Still distributed",
     "entity": "Professional Paraplanner · Jason Hollands",
@@ -5141,6 +5773,13 @@
       "url": "https://www.gov.uk/government/statistics/capital-gains-tax-statistics/capital-gains-tax-commentary--2"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "professional",
@@ -5198,7 +5837,9 @@
         }
       ],
       "note": "The revised release also incorporates updates to previously provisional figures."
-    }
+    },
+    "liveMethod": "Actual complete professional article and direct HMRC source link, archived original, corrected series and formal quality report",
+    "priority": 2
   },
   {
     "id": "haufe-pension-childcare-credits",
@@ -5207,6 +5848,7 @@
     "topic": "Public policy & society",
     "use": "Professional reporting",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-06-18",
     "timing": "Still distributed",
     "entity": "Haufe · Sozialwesen",
@@ -5228,6 +5870,12 @@
       "year": 2025
     },
     "checked": "2026-11-11",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "health_cases",
+      "root"
+    ],
     "sources": [
       {
         "id": "haufe",
@@ -5254,6 +5902,8 @@
         "note": "Documents a code error calculating entitlements without child-rearing credits; the study’s broad conclusion remains."
       }
     ],
+    "liveMethod": "Fresh complete actual Haufe HTML, date and source link, exact comparisons and quotation checked 11 November 2026",
+    "priority": 4,
     "numbers": {
       "caption": "Effect of existing child-rearing credits on West German pension-entitlement gaps",
       "beforeLabel": "Still reported",
@@ -5271,7 +5921,8 @@
         }
       ],
       "note": "Birth cohorts 1952–1959, accrued entitlements at age 60. Each comparison runs from the hypothetical gap without credits to the gap with credits; it is not a time trend or an evaluation of the proposed 2025 reform."
-    }
+    },
+    "finder": "environment_cases"
   },
   {
     "id": "diw-pension-childcare-release",
@@ -5280,6 +5931,7 @@
     "topic": "Public policy & society",
     "use": "Research communication",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-06-18",
     "timing": "Still distributed",
     "entity": "DIW Berlin · public press release",
@@ -5301,6 +5953,12 @@
       "year": 2025
     },
     "checked": "2026-11-11",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "health_cases",
+      "root"
+    ],
     "sources": [
       {
         "id": "release",
@@ -5327,6 +5985,8 @@
         "note": "Documents a code error calculating entitlements without child-rearing credits; the study’s broad conclusion remains."
       }
     ],
+    "liveMethod": "Fresh complete actual DIW release, linked study record and exact opening paragraph checked 11 November 2026",
+    "priority": 4,
     "numbers": {
       "caption": "Effect of existing child-rearing credits on West German pension-entitlement gaps",
       "beforeLabel": "Still reported",
@@ -5344,7 +6004,8 @@
         }
       ],
       "note": "Birth cohorts 1952–1959, accrued entitlements at age 60. Each comparison runs from the hypothetical gap without credits to the gap with credits; it is not a time trend or an evaluation of the proposed 2025 reform."
-    }
+    },
+    "finder": "environment_cases"
   },
   {
     "id": "scottish-health-survey-natcen-summary",
@@ -5353,6 +6014,7 @@
     "topic": "Public health",
     "use": "Survey findings",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-03-19",
     "timing": "Still distributed",
     "entity": "National Centre for Social Research · ScotCen",
@@ -5375,6 +6037,13 @@
       "url": "https://www.gov.scot/publications/scottish-health-survey-2024-volume-1-main-report/"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "natcen",
@@ -5424,7 +6093,9 @@
         }
       ],
       "note": "The categories overlap."
-    }
+    },
+    "liveMethod": "Actual complete producer project summary, government survey link, formal correction and corrected chapter",
+    "priority": 5
   },
   {
     "id": "england-heat-mortality-lshtm-annual-report",
@@ -5433,6 +6104,7 @@
     "topic": "Climate & environment",
     "use": "Institutional annual report",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-07-24",
     "timing": "Still distributed",
     "entity": "London School of Hygiene & Tropical Medicine",
@@ -5455,6 +6127,13 @@
       "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/climaterelatedmortalityandhospitaladmissionsenglandandwales/1988to2022"
     },
     "checked": "2026-11-11",
+    "finder": "policy_cases",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "annual",
@@ -5489,7 +6168,9 @@
         "note": "Uses revised data, methods and coverage, with a different hottest-days threshold."
       }
     ],
-    "occurrences": []
+    "occurrences": [],
+    "liveMethod": "Actual full LSHTM annual accounts, named ONS contribution, formal correction and replacement analysis",
+    "priority": 5
   },
   {
     "id": "scottish-health-survey-natcen-launch",
@@ -5498,6 +6179,7 @@
     "topic": "Public health",
     "use": "Research press release",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2026-03-19",
     "timing": "Still distributed",
     "entity": "National Centre for Social Research · launch press release",
@@ -5520,6 +6202,13 @@
       "url": "https://www.gov.scot/publications/scottish-health-survey-2024-volume-1-main-report/"
     },
     "checked": "2026-11-11",
+    "finder": "health_cases",
+    "reviewers": [
+      "root",
+      "health_cases",
+      "policy_cases",
+      "environment_cases"
+    ],
     "sources": [
       {
         "id": "natcen-release",
@@ -5569,7 +6258,9 @@
         }
       ],
       "note": "The categories overlap."
-    }
+    },
+    "liveMethod": "Actual complete current NatCen press release, exact 2024 survey findings, formal correction and corrected chapter",
+    "priority": 5
   },
   {
     "id": "long-covid-trial-safety",
@@ -5580,6 +6271,7 @@
     "entity": "mgb medizin · Der Allgemeinarzt",
     "title": "A German GP summary retains safety figures from a trial replaced in October 2026",
     "status": "Retracted & republished",
+    "severity": "major",
     "changeDate": "2026-10-06",
     "publicDate": "Article published 30 April 2026 · still available",
     "publicDateShort": "30 Apr 2026",
@@ -5671,7 +6363,14 @@
         "note": "This record matches the German article’s rates and links the retraction-and-republication notice."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent complete current GP-article reads + original/revised primary abstracts + formal notice records",
+    "reviewers": [
+      "health_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 6
   },
   {
     "id": "uk-universal-credit-resolution-press-release",
@@ -5682,6 +6381,7 @@
     "entity": "Resolution Foundation · press release",
     "title": "A Universal Credit press release retains a majority claim beside the corrected percentage",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": null,
     "changeDateLabel": "Correction date unclear",
     "publicDate": "29 January 2026",
@@ -5727,7 +6427,15 @@
         "note": "The body gives 42%, while the opening and a quoted statement retain the majority description."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Complete current Resolution Foundation press release and its corrected paragraph; primary correction PDF and current report page",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "health_cases"
+    ],
+    "priority": 6,
+    "finder": "root"
   },
   {
     "id": "pharmacy-ai-confidence",
@@ -5738,6 +6446,7 @@
     "entity": "Pharmazeutische Zeitung",
     "title": "A pharmacy publication retains workplace advice from an AI study withdrawn in August 2026",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-08-31",
     "publicDate": "Article published 27 April 2026 · still available",
     "publicDateShort": "27 Apr 2026",
@@ -5790,7 +6499,14 @@
         "note": "The exact paper linked from the German article."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent complete current-article reads + exact DOI links + full APA retraction",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 8
   },
   {
     "id": "fnr-drought-severity-webinar",
@@ -5801,6 +6517,7 @@
     "entity": "Frank Wagener · Hochschule Trier / IfaS · FNR webinar",
     "title": "An energy-practitioner presentation retains a withdrawn drought-severity result",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-09-02",
     "publicDate": "19 November 2025 · webinar presentation",
     "publicDateShort": "19 Nov 2025",
@@ -5853,7 +6570,15 @@
         "note": "The official event page supplies the presentation to its municipal and energy-practitioner audience."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Fresh complete 34-page PDF, exact slide 5 and official webinar programme/download route checked 11 November 2026",
+    "reviewers": [
+      "environment_cases",
+      "health_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 10
   },
   {
     "id": "diw-green-innovation",
@@ -5864,6 +6589,7 @@
     "entity": "manage it · ap Verlag",
     "title": "A business article retains an innovation finding reversed by DIW’s correction",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-07-22",
     "publicDate": "Article published 6 June 2025 · still available",
     "publicDateShort": "6 Jun 2025",
@@ -5916,7 +6642,14 @@
         "note": "The magazine’s footnote identifies this report and its DOI."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent complete live-browser reads + formal corrected PDF",
+    "reviewers": [
+      "policy_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 11
   },
   {
     "id": "uk-council-revenue-deadlines-guide",
@@ -5927,6 +6660,7 @@
     "entity": "Local Government Association · Behavioural Insights Team",
     "title": "A council revenue guide still cites a retracted experiment for its deadline advice",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2026-09-02",
     "publicDate": "15 March 2018 · guide still supplied",
     "publicDateShort": "15 Mar 2018",
@@ -5979,7 +6713,15 @@
         "note": "Matches the guide’s bibliographic reference."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Complete current web-rendered 16-page guide, exact quotation and footnote, LGA publication record and full retraction notice",
+    "reviewers": [
+      "root",
+      "policy_cases",
+      "environment_cases"
+    ],
+    "priority": 12,
+    "finder": "root"
   },
   {
     "id": "vitamin-d-autism",
@@ -5990,6 +6732,7 @@
     "title": "A parent treatment guide still relies on a retracted vitamin D trial",
     "publicDateShort": "Shows 7 May 2026",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2019-05-06",
     "claim": "The guide cites Saad et al. and describes improved autism symptoms after four months of supplementation, with no comparable improvement on placebo.",
     "change": "The journal withdrew the trial after missing raw data, discrepancies in reanalysis and recording irregularities undermined confidence in its findings.",
@@ -6040,6 +6783,13 @@
       }
     ],
     "checked": "2026-11-10",
+    "liveMethod": "Browser",
+    "reviewers": [
+      "health_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 102,
     "region": "International",
     "publicDate": "Displays 7 May 2026"
   },
@@ -6052,6 +6802,7 @@
     "title": "A climate article retains a strong policy inference after uncertainty quadrupled",
     "publicDateShort": "1 Nov 2018",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2019-09-25",
     "claim": "The article says a new ocean-heat estimate suggests the remaining emissions budget for the Paris targets needs to shrink by about a quarter.",
     "change": "Reanalysis increased uncertainty roughly fourfold and substantially weakened the paper’s inferences about higher ocean warming and climate sensitivity. The paper was retracted.",
@@ -6094,6 +6845,13 @@
       }
     ],
     "checked": "2026-11-10",
+    "liveMethod": "Browser",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 106,
     "region": "International",
     "publicDate": "1 November 2018"
   },
@@ -6106,6 +6864,7 @@
     "entity": "Naturecan · German online shop",
     "title": "German supplement sales still use a retracted vinegar trial",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-09-23",
     "publicDate": "Live sales page · no publication date shown",
     "publicDateShort": "Undated",
@@ -6158,7 +6917,15 @@
         "note": "The product page’s study table links this exact BMJ trial."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent live sales-page checks with study table expanded and primary BMJ notice",
+    "reviewers": [
+      "health_cases",
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 3
   },
   {
     "id": "body-clinic-vinegar-weight-loss",
@@ -6169,6 +6936,7 @@
     "entity": "The Body Clinic · German clinic website",
     "title": "A clinic’s weight-loss advice retains a retracted vinegar trial result",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-09-23",
     "publicDate": "Published 15 October 2025 · updated 8 July 2026",
     "publicDateShort": "15 Oct 2025",
@@ -6221,7 +6989,15 @@
         "note": "The clinic’s named author reference, Lebanese institution and detailed trial description identify this paper."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Fresh complete actual clinic HTML, publication and modification metadata, exact trial description and quotation checked 11 November 2026",
+    "reviewers": [
+      "health_cases",
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 3
   },
   {
     "id": "ms-probiotics-sales",
@@ -6232,6 +7008,7 @@
     "entity": "Nordic Oil · German online shop",
     "title": "A supplement seller’s 2026 MS advice retains a retracted disability result",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2025-08-14",
     "publicDate": "Advice page updated 18 August 2026",
     "publicDateShort": "Updated 18 Aug 2026",
@@ -6284,7 +7061,14 @@
         "note": "The primary journal date is used here; a later date in the Retraction Watch dataset was not used as the first publication date."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent complete current-page reads + visible study and sales placement + full primary journal notice",
+    "reviewers": [
+      "health_cases",
+      "environment_cases",
+      "root"
+    ],
+    "priority": 4
   },
   {
     "id": "german-groundwater-commercial-guide",
@@ -6295,6 +7079,7 @@
     "entity": "GreenLife GmbH",
     "title": "A water-system seller still distributes the original version of a corrected groundwater report",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-07-07",
     "publicDate": "Undated product-advice article · still distributed",
     "publicDateShort": "Undated",
@@ -6357,6 +7142,13 @@
       }
     ],
     "checked": "2026-11-11",
+    "liveMethod": "Full actual live-browser article and embedded-PDF route + fresh complete PDF downloads and before/after comparison",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 9,
     "changeDateLabel": "July 2025"
   },
   {
@@ -6368,6 +7160,7 @@
     "entity": "VERVEE / Planted · Cologne",
     "title": "A German tree-planting appeal retains a climate ranking formally corrected in 2020",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2020-05-29",
     "publicDate": "Undated fundraising page · currently active",
     "publicDateShort": "Undated",
@@ -6412,7 +7205,13 @@
         "note": "The exact paper linked from the fundraising page."
       }
     ],
-    "checked": "2026-11-11"
+    "checked": "2026-11-11",
+    "liveMethod": "Independent complete live-browser reads of fundraising page and formal erratum",
+    "reviewers": [
+      "environment_cases",
+      "root"
+    ],
+    "priority": 14
   },
   {
     "id": "green-coffee-weight-loss",
@@ -6423,6 +7222,7 @@
     "title": "A retracted weight-loss trial still supports green coffee sales",
     "publicDateShort": "Undated",
     "status": "Retracted",
+    "severity": "major",
     "changeDate": "2014-10-16",
     "claim": "The sales page says participants lost an average of 17 pounds and 16% body fat, and links the trial as support for its formulation.",
     "change": "The authors retracted the trial because they could not assure the validity of the sponsor’s data.",
@@ -6465,6 +7265,13 @@
       }
     ],
     "checked": "2026-11-10",
+    "liveMethod": "Browser + exact linked PDF download",
+    "reviewers": [
+      "health_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 101,
     "region": "International",
     "publicDate": "Undated sales page"
   },
@@ -6477,6 +7284,7 @@
     "title": "A shopping guide reports one correction but retains a later-corrected exposure estimate",
     "publicDateShort": "Updated Sept 2025",
     "status": "Corrected",
+    "severity": "major",
     "changeDate": "2025-07-03",
     "claim": "The utensil replacement guide still gives an estimated BDE-209 exposure of 34,700 nanograms per day.",
     "change": "A second correction reduced that estimate to 7,900 ng/day after the authors identified a misinterpreted exposure formula.",
@@ -6527,6 +7335,13 @@
       }
     ],
     "checked": "2026-11-10",
+    "liveMethod": "Browser",
+    "reviewers": [
+      "environment_cases",
+      "policy_cases",
+      "root"
+    ],
+    "priority": 103,
     "region": "International",
     "publicDate": "Updated September 2025"
   }
