@@ -389,6 +389,264 @@
     "priority": 1
   },
   {
+    "id": "international-danfoss-irrigation-energy",
+    "studyId": "10.1038/s41467-024-47383-5",
+    "region": "International",
+    "topic": "Climate & environment",
+    "use": "Policy advocacy",
+    "status": "Retracted",
+    "severity": "major",
+    "entity": "Danfoss · English-language Impact policy paper",
+    "title": "A water-and-energy policy paper still uses irrigation estimates from a retracted study",
+    "publicDate": "2025 · currently available Danfoss Impact Issue No. 7",
+    "publicDateShort": "2025",
+    "changeDate": "2026-09-22",
+    "changeDateLabel": "22 September 2026",
+    "timing": "Still distributed",
+    "claim": "Danfoss’s policy paper derives annual groundwater-pumping energy use of 469 TWh and CO₂ emissions of 192 million tonnes from Qin and colleagues. It also cites the study for a projected 51% energy saving from replacing diesel irrigation pumps with electric ones.",
+    "quote": "replacing diesel-powered pumps with new, more efficient electrified pumps could cut energy consumption by 51%",
+    "quoteSource": "policy-paper",
+    "sourceSection": "Printed page 29 · Agriculture, reference 95; additional derived estimates on printed page 15 and reference 40",
+    "change": "Nature Communications retracted the underlying study because the authors used the GCWM model, contrary to their stated use of WATNEEDS. The corresponding author said on behalf of the authors that they disagreed with the retraction.",
+    "importance": "This is a mismatch in the stated research method underlying global energy and emissions estimates, rather than a typographical correction. The policy paper continues to use that retracted source to quantify the case for irrigation electrification and efficient pumping within a wider set of recommendations to governments. The notice does not provide corrected estimates.",
+    "scope": "The retraction establishes the model-method discrepancy; it does not establish that every estimate or the 51% saving is numerically false, quantify the resulting bias, or disprove irrigation electrification benefits. The 469 TWh and 192-million-tonne figures are Danfoss’s own derivations: reference 40 applies the study’s 89% groundwater-energy share to its 527 TWh and 216-million-tonne global estimates. The source paper itself is not a study of a specific German- or English-speaking country. This occurrence is an English-language international policy paper. No evidence that a government adopted its recommendations was established. Text was extracted from the current official PDF; no visual inspection is claimed.",
+    "chain": "The current official Danfoss PDF cites the exact Qin et al. title and DOI 10.1038/s41467-024-47383-5 in references 40 and 95. Reference 40 explains its derived pumping-energy and emissions estimates; reference 95 attaches to the diesel-to-electric-pump saving. Nature’s retraction notice explicitly targets that DOI and states the model discrepancy.",
+    "study": {
+      "title": "Global energy use and carbon emissions from irrigated agriculture",
+      "authors": "Jingxiu Qin, Weili Duan, Shan Zou, Yaning Chen, Wenjing Huang and Lorenzo Rosa",
+      "journal": "Nature Communications",
+      "year": 2024,
+      "url": "https://www.nature.com/articles/s41467-024-47383-5"
+    },
+    "sources": [
+      {
+        "id": "policy-paper",
+        "role": "Still in use",
+        "label": "Danfoss Impact No.7 · The potential of the water-energy nexus: Tapping into efficiency",
+        "url": "https://assets.danfoss.com/documents/latest/555340/BE537856813567en-000601.pdf",
+        "dateLabel": "2025 · current official PDF checked 13 November 2026",
+        "note": "Printed pages 15 and 29 retain study-derived pumping estimates and the 51% electrification saving; references 40 and 95 identify the exact DOI. Printed page 45 sets policy recommendations."
+      },
+      {
+        "id": "retraction",
+        "role": "Retraction",
+        "label": "Nature Communications · irrigation-energy retraction notice",
+        "url": "https://www.nature.com/articles/s41467-026-77951-w",
+        "dateLabel": "22 September 2026",
+        "note": "Full indexed primary notice: GCWM used rather than stated WATNEEDS; authors disagree. Direct retrieval redirected to an unavailable Nature authentication endpoint."
+      },
+      {
+        "id": "notice-mirror",
+        "role": "Primary notice mirror",
+        "label": "PubMed Central · irrigation-energy retraction",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13597500/",
+        "dateLabel": "22 September 2026",
+        "note": "Full indexed primary text independently states the exact model-method mismatch and authors’ disagreement."
+      },
+      {
+        "id": "study",
+        "role": "Retracted study",
+        "label": "Nature Communications · original irrigation-energy article",
+        "url": "https://www.nature.com/articles/s41467-024-47383-5",
+        "dateLabel": "10 April 2024 · retracted 22 September 2026",
+        "note": "Original global 216-million-tonne, 1,896 PJ and 89% estimates; the retraction supplies no replacement numerical values."
+      },
+      {
+        "id": "distribution",
+        "role": "Current report distribution page",
+        "label": "Danfoss · water-energy nexus policy paper",
+        "url": "https://www.danfoss.com/en/about-danfoss/insights/reports-and-analysis/the-potential-of-the-water-energy-nexus-tapping-into-efficiency/",
+        "dateLabel": "Current indexed report page",
+        "note": "Primary indexed page describes recommendations to policymakers. Direct HTML retrieval returned 403; official PDF fully accessible."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Full current official Danfoss PDF extracted text, exact references 40 and 95 and policy section; full indexed Nature and PMC primary notice text; original retraction status. Direct Nature retrieval encountered an authentication redirect and Danfoss HTML returned 403; no visual review claimed.",
+    "finder": "verify_methods",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": []
+  },
+  {
+    "id": "austria-harris-climate-report24",
+    "studyId": "10.3390/atmos14081244",
+    "region": "Austria",
+    "topic": "Climate & environment",
+    "use": "Political commentary",
+    "entity": "Report24 · Heinz Steiner",
+    "title": "A climate-policy article still presents a retracted review as proof that CO₂ does not drive climate change",
+    "status": "Retracted",
+    "severity": "major",
+    "changeDate": "2026-09-16",
+    "publicDate": "2 October 2023 · article remains publicly available",
+    "publicDateShort": "2 Oct 2023",
+    "timing": "Still distributed",
+    "claim": "Report24 says a review by Stuart A. Harris demonstrates that atmospheric CO₂ is not responsible for climate change, presents it as scientific opposition to economic decarbonisation, and predicts cooling and glacier growth.",
+    "quote": "Nun zeigt eine weitere Studie, dass das Kohlendioxid in Bezug auf den Klimawandel faktisch keine Rolle spielt.",
+    "quoteSource": "public",
+    "sourceSection": "Opening paragraph below the headline",
+    "change": "Atmosphere retracted Harris’s exact review on 16 September 2026 after an investigation found insufficient assessment of the literature, unsupported conclusions, inaccurate interpretation of data and problems with the use and attribution of references. The Editorial Board said the author’s responses did not resolve the concerns and that it had lost confidence in the findings’ integrity and reliability.",
+    "importance": "The article uses the review to challenge the scientific premise of decarbonisation, rather than a narrow subsidiary estimate. Retraction for problems with its conclusions and interpretation removes this particular review as dependable support for that political argument. The public headline and endorsement remain without a retraction warning in the retrieved article.",
+    "scope": "This was a literature review, not a new experiment measuring the effect of CO₂. The formal notice says the author was informed but did not comment on the retraction decision; it does not state that he agreed or disagreed. No misconduct finding or deliberate concealment is established. This case does not independently adjudicate every linked climate claim. The Daily Sceptic’s related article now explicitly discloses the retraction and is excluded from this occurrence.",
+    "chain": "Report24 names Stuart A. Harris and Atmosphere and links its phrase ‘eine weitere Studie’ directly to DOI 10.3390/atmos14081244. Clicking that link resolves to the publisher’s exact article, now titled RETRACTED and bearing the 16 September 2026 notice link. The publisher’s issue 17(9) identifies the separate retraction as article 900, DOI 10.3390/atmos17090900. Report24’s imprint locates its editorial office in Linz, Austria.",
+    "study": {
+      "title": "Comparison of Recently Proposed Causes of Climate Change",
+      "authors": "Stuart A. Harris",
+      "journal": "Atmosphere",
+      "year": 2023
+    },
+    "sources": [
+      {
+        "id": "public",
+        "role": "Still in use",
+        "label": "Report24 · CO₂ and climate-change article",
+        "url": "https://report24.news/eine-weitere-studie-bestaetigt-co2-ist-nicht-fuer-den-klimawandel-verantwortlich/",
+        "dateLabel": "2 October 2023 · checked 13 November 2026",
+        "note": "Full article retains explicit endorsement and direct DOI link; no retraction warning appeared in retrieved text."
+      },
+      {
+        "id": "original",
+        "role": "Publisher retraction status",
+        "label": "Atmosphere · retracted Harris review",
+        "url": "https://www.mdpi.com/2073-4433/14/8/1244",
+        "dateLabel": "3 August 2023 · retraction banner dated 16 September 2026",
+        "note": "Primary article explicitly identifies retraction, date, and separate notice; exact DOI target from Report24."
+      },
+      {
+        "id": "notice",
+        "role": "Retraction",
+        "label": "Atmosphere · formal retraction, article 900",
+        "url": "https://www.mdpi.com/2073-4433/17/9/900",
+        "dateLabel": "16 September 2026",
+        "note": "Full primary notice directly checked: substantive literature, conclusion, data-interpretation and reference concerns; author informed but did not comment on decision."
+      },
+      {
+        "id": "issue",
+        "role": "Primary publication record",
+        "label": "Atmosphere · September 2026 issue",
+        "url": "https://www.mdpi.com/2073-4433/17/9",
+        "dateLabel": "September 2026 · article 900, published 16 September",
+        "note": "Lists exact Harris review retraction and DOI 10.3390/atmos17090900."
+      },
+      {
+        "id": "reporting",
+        "role": "Notice quotation and publisher response",
+        "label": "Retraction Watch · Harris review retraction",
+        "url": "https://retractionwatch.com/2026/10/02/paper-questioning-co2-and-climate-change-retracted/",
+        "dateLabel": "2 October 2026",
+        "note": "Quotes detailed notice concerns and reports MDPI’s response; says the author’s responses did not resolve the issues. Author did not answer the reporter."
+      },
+      {
+        "id": "imprint",
+        "role": "Country attribution",
+        "label": "Report24 · imprint",
+        "url": "https://report24.news/impressum/",
+        "dateLabel": "Checked 13 November 2026",
+        "note": "Editorial address and responsible publisher are in Linz."
+      }
+    ],
+    "occurrences": [],
+    "checked": "2026-11-13",
+    "liveMethod": "Full Report24 public article and imprint; exact outgoing DOI; publisher original article with retraction banner; full primary retraction notice, including investigation findings and author-response statement; official issue listing. Initial access failures were resolved through the original article’s notice route.",
+    "finder": "verify_policy",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2
+  },
+  {
+    "id": "us-flood-models-preventionweb",
+    "studyId": "10.63024/k6yh-a2v6",
+    "region": "International",
+    "topic": "Climate & environment",
+    "use": "Public information",
+    "status": "Retracted",
+    "severity": "major",
+    "entity": "PreventionWeb · UNDRR disaster-risk knowledge platform",
+    "title": "A disaster-risk knowledge page still presents validation claims from a retracted US flood-model comparison",
+    "publicDate": "2026 · page last checked 24 February 2026",
+    "publicDateShort": "2026",
+    "changeDate": "2026-09-16",
+    "changeDateLabel": "16 September 2026",
+    "timing": "Still distributed",
+    "claim": "PreventionWeb’s public summary says catastrophe models used for National Flood Insurance Program pricing closely match historical losses within about 4%, while First Street significantly overestimates national flood losses and Karen Clark & Company substantially underestimates losses in Florida.",
+    "quote": "First Street significantly overestimates flood losses nationally and Karen Clark & Company substantially underestimates them in Florida",
+    "quoteSource": "summary",
+    "sourceSection": "Second summary paragraph",
+    "change": "The authors retracted the article after finding that Table 5’s FPFLM and KCC data came from an incorrect table, and that their comparison of population-wide catastrophe-model estimates with NFIP claims inadequately accounted for low insurance take-up and resulting risk-selection bias. They said these issues may affect core conclusions and would undertake a comprehensive revision.",
+    "importance": "The retained summary presents a model comparison as validation relevant to flood-risk pricing. Choosing or rejecting models on that basis could affect insurance, adaptation and risk-reduction decisions. The retraction removes the basis for treating the paper’s model-ranking and overestimation claims as validated conclusions, rather than supplying a routine numerical update.",
+    "scope": "The notice does not provide corrected replacement estimates or establish that any named model is accurate. It says the methodological issues may affect some core conclusions, and all three authors agree to retract for comprehensive revision. This case does not claim that NFIP officials used this particular paper or that it changed insurance premiums. PreventionWeb identifies its contents as posted by community members or editors and says their views are not necessarily UNDRR’s; distribution on the platform is not UN endorsement. The 4% claim is in the live summary; the original paper’s abstract additionally gives roughly twice-as-high First Street losses and approximately 13-times-lower KCC losses, but those magnitudes should not be attributed to the summary itself. The exact page publication date is unavailable; 24 February is its displayed last-checked date.",
+    "chain": "PreventionWeb names the exact three authors and research title. Its Access link directly opens the publisher PDF at journalofcrr.com/wp-content/uploads/2026/02/JCRR-Dusseau-et-al-Volume-04-Article-01-February-2026.pdf, whose first page identifies DOI 10.63024/k6yh-a2v6. The publisher’s 16 September retraction explicitly targets that DOI. The retrieved PreventionWeb summary has no retraction warning and continues to describe the findings as model validation.",
+    "study": {
+      "title": "Validation and Comparison of U.S. Loss Estimates from Catastrophe Flood Models",
+      "authors": "Dominick Dusseau, Zachary Zobel and Christopher R. Schwalm",
+      "journal": "Journal of Catastrophe Risk and Resilience",
+      "year": 2026,
+      "url": "https://journalofcrr.com/research/04-01-dusseau-et-al/"
+    },
+    "sources": [
+      {
+        "id": "summary",
+        "role": "Still in use",
+        "label": "PreventionWeb · US catastrophe flood-model validation summary",
+        "url": "https://www.preventionweb.net/publication/documents-and-publications/validation-and-comparison-us-loss-estimates-catastrophe",
+        "dateLabel": "2026 · last checked 24 February 2026",
+        "note": "Live summary retains within-4% validation and named-model over/underestimation claims without retraction warning; direct publisher PDF and backup-document links."
+      },
+      {
+        "id": "retraction",
+        "role": "Retraction",
+        "label": "Publisher · retraction note for Dusseau and colleagues",
+        "url": "https://journalofcrr.com/Comment/Retraction-Note-04-08-Dusseau-et-al/",
+        "dateLabel": "16 September 2026",
+        "note": "Primary author-agreed retraction identifies wrong-table data for FPFLM/KCC and risk-selection problems with NFIP comparisons; DOI10.63024/982t-jh37."
+      },
+      {
+        "id": "paper",
+        "role": "Retracted study",
+        "label": "Publisher · original study and retraction banner",
+        "url": "https://journalofcrr.com/research/04-01-dusseau-et-al/",
+        "dateLabel": "February 2026 · retracted 16 September 2026",
+        "note": "Publisher now labels article retracted and links the formal notice."
+      },
+      {
+        "id": "linked-pdf",
+        "role": "Exact source connection",
+        "label": "Original publisher PDF linked by PreventionWeb",
+        "url": "https://journalofcrr.com/wp-content/uploads/2026/02/JCRR-Dusseau-et-al-Volume-04-Article-01-February-2026.pdf",
+        "dateLabel": "February 2026",
+        "note": "Text extraction confirms exact authors, title, DOI and original abstract numbers. No visual inspection claimed."
+      },
+      {
+        "id": "platform",
+        "role": "Platform context",
+        "label": "About PreventionWeb",
+        "url": "https://www.preventionweb.net/about-preventionweb",
+        "dateLabel": "Current platform information",
+        "note": "Knowledge-sharing platform for disaster-risk reduction; individual content need not express UNDRR’s institutional views."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Independent live full text of PreventionWeb summary, its exact outgoing publisher-PDF link, extracted PDF first page and body, publisher article banner, full formal retraction notice and platform context. No PDF visual inspection claimed.",
+    "finder": "verify_methods",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": []
+  },
+  {
     "id": "germany-youth-gaming-prevalence",
     "studyId": "DAK–UKE Mediensuchtstudie · wave 6, 2023",
     "region": "Germany",
@@ -1408,6 +1666,81 @@
     "priority": 2
   },
   {
+    "id": "uk-ons-repeated-harassment-sun",
+    "studyId": "ons-csew-repeated-harassment-2026",
+    "region": "United Kingdom",
+    "topic": "Crime & justice",
+    "use": "News coverage",
+    "entity": "The Sun · Jordan Farrell",
+    "title": "A crime-policy article retains an ONS undercount of repeated-harassment victims",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": "2026-08-13",
+    "publicDate": "2 August 2026 · article remains publicly available",
+    "publicDateShort": "2 Aug 2026",
+    "timing": "Still distributed",
+    "claim": "The Sun attributes an estimated 1.1 million repeated-harassment victims in the year ending March 2026 to the ONS, alongside reporting on stalking protection and the government's violence-against-women policy.",
+    "quote": "They added that an estimated 1.1million people experienced repeated harassment in the last year.",
+    "quoteSource": "public",
+    "sourceSection": "Paragraph immediately before the Crime and Policing Act discussion",
+    "change": "On 13 August 2026 the ONS corrected a derivation error affecting repeated-harassment estimates. The March 2026 estimate rose from 2.2% (around 1.1 million people) to 3.5% (around 1.7 million); the March 2025 comparator changed from 3.1% to 2.3%. The reported annual decrease therefore became an increase.",
+    "importance": "The retained count is approximately 600,000 below the corrected rounded estimate. The underlying official trend also reverses direction. The article places the figures in a debate about stalking protection, prosecution and specialist training.",
+    "scope": "The Sun repeats the obsolete count, not the erroneous decrease. Its headline and principal police-recorded stalking/harassment figures are separate measures and were not invalidated by this correction. Repeated harassment concerns people aged 16 or over in England and Wales, not the whole UK; it is a survey prevalence estimate, not a count of police-recorded incidents. The approximate 600,000 difference uses rounded published counts. No deliberate concealment is established.",
+    "chain": "The Sun explicitly attributes the surrounding harassment estimates to the ONS and repeats the exact 1.1 million count and year from section 10 of the original March 2026 CSEW bulletin. Its article does not link directly to that bulletin. The ONS current bulletin links its superseded version, allowing the old and corrected estimates and trend to be checked directly.",
+    "study": {
+      "title": "Crime in England and Wales: year ending March 2026 · repeated harassment estimates",
+      "authors": "Office for National Statistics",
+      "journal": "Crime Survey for England and Wales statistical bulletin",
+      "year": 2026,
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/yearendingmarch2026"
+    },
+    "sources": [
+      {
+        "id": "public",
+        "role": "Still in use",
+        "label": "The Sun · stalking and harassment hotspots",
+        "url": "https://www.thesun.co.uk/news/39896201/uk-stalking-harassment-hotspots-revealed/",
+        "dateLabel": "2 August 2026 · checked 13 November 2026",
+        "note": "Full retrieved article retains 1.1 million repeated-harassment estimate and crime-policy discussion; no specific correction warning found."
+      },
+      {
+        "id": "notice",
+        "role": "Correction and revised estimate",
+        "label": "ONS · corrected March 2026 crime bulletin",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/yearendingmarch2026",
+        "dateLabel": "Correction: 13 August 2026, 16:00",
+        "note": "Formal notice identifies derivation error and both affected years; main point and section 10 show revised increase and 1.7 million estimate."
+      },
+      {
+        "id": "original",
+        "role": "Superseded original",
+        "label": "ONS · archived first version of March 2026 bulletin",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/yearendingmarch2026/previous/v1",
+        "dateLabel": "23 July 2026 · superseded",
+        "note": "Main point and section 10 contain old 3.1% to 2.2% decrease and approximately 1.1 million count; retained explicitly as a version archive."
+      },
+      {
+        "id": "dataset",
+        "role": "Affected dataset notice",
+        "label": "ONS · annual supplementary tables",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/crimeinenglandandwalesannualsupplementarytables",
+        "dateLabel": "13 August 2026 correction",
+        "note": "Table A11 repeated-harassment estimates and unweighted bases corrected for all years because of a derivation issue."
+      }
+    ],
+    "occurrences": [],
+    "checked": "2026-11-13",
+    "liveMethod": "Full HTML public article; full ONS correction and current bulletin; official archived original bulletin; dataset correction notice. Compared exact repeated-harassment counts and annual percentages; no visual inspection claimed.",
+    "finder": "verify_policy",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 1
+  },
+  {
     "id": "bundestag-vaccination-mortality",
     "studyId": "10.1136/bmjph-2023-000282",
     "region": "Germany",
@@ -1785,6 +2118,90 @@
       "verify_methods"
     ],
     "priority": 3
+  },
+  {
+    "id": "us-hawaii-uhero-mirage-energy",
+    "studyId": "uhero-electricity-future-2026",
+    "region": "International",
+    "topic": "Climate & environment",
+    "use": "Public information",
+    "status": "Withdrawn",
+    "severity": "major",
+    "entity": "Mirage News · syndicated University of Hawaiʻi release",
+    "title": "An energy-policy release still presents conclusions from a temporarily withdrawn UHERO report",
+    "publicDate": "30 June 2026 · currently available syndication",
+    "publicDateShort": "30 Jun 2026",
+    "changeDate": "2026-07-07",
+    "changeDateLabel": "7 July 2026 · temporary withdrawal",
+    "timing": "Still distributed",
+    "claim": "A syndicated university release says Oʻahu does not need another large fuel-burning power plant beyond projects already under development, and that solar-procurement reform could save customers about $3.4 billion during 2027–2050. It presents avoiding the JERA LNG bundle as part of the cheapest electricity pathway.",
+    "quote": "The report also found that Oʻahu does not need another large fuel-burning power plant beyond projects already under development.",
+    "quoteSource": "release",
+    "sourceSection": "Body · report findings, immediately after the $3.4 billion estimate",
+    "change": "On 7 July 2026, the University of Hawaiʻi announced that the faculty author was temporarily withdrawing the report to correct identified errors, complete a comprehensive review, obtain stakeholder feedback and republish a revised edition.",
+    "importance": "The public release presents a preferred long-term electricity strategy and billion-dollar savings while the underlying report was withdrawn for errors. These conclusions concern decisions about power generation, LNG infrastructure, ratepayer costs and island-grid reliability. In a subsequent HPR interview, the author acknowledged an AI-generated inversion of a solar-price trend and errors that had overstated the case against the LNG project.",
+    "scope": "This is a temporary author withdrawal of the June report, not a journal retraction or proof that solar is more expensive than LNG. The university notice does not itemize the errors; the AI and cost details are attributed to the author through HPR's direct interview and reporting. No independently verified replacement numerical estimate for the $3.4 billion saving was obtained. UHERO's 31 August 2026 seminar page discusses a same-title analysis under an explicit preliminary-research warning and continues to favor solar and storage over new fuel plants; it cannot be used to claim the policy conclusion was reversed or that research ceased. The State Energy Office critique is a separate interested governmental assessment, not the publisher's correction. Mirage identifies this as a point-in-time public release, but the retrieved article has no withdrawal notice.",
+    "chain": "Mirage explicitly syndicates the University of Hawaiʻi release and links the exact UHERO report slug three-findings-on-hawaiʻis-electricity-future. Its original UH news and report URLs now return 404. The university's 7 July notice names the same full report title and records the temporary withdrawal for errors. The stale release predates that withdrawal and retains the findings without a withdrawal warning.",
+    "study": {
+      "title": "Hawaiʻi’s Electricity Future: Three Findings on Solar Reform, Enhanced Geothermal, and the JERA LNG Proposal",
+      "authors": "Ethan Hartley and Michael J. Roberts · UHERO",
+      "journal": "University of Hawaiʻi Economic Research Organization report",
+      "year": 2026,
+      "url": "https://uhero.hawaii.edu/three-findings-on-hawai%CA%BBis-electricity-future/"
+    },
+    "sources": [
+      {
+        "id": "release",
+        "role": "Still in use",
+        "label": "Mirage News · UHERO Report Reveals Cheapest Path for Oʻahu Power",
+        "url": "https://www.miragenews.com/uhero-report-reveals-cheapest-path-for-oahu-1701594/",
+        "dateLabel": "30 June 2026",
+        "note": "Live university-release syndication retains the no-new-fuel-plant conclusion and $3.4 billion saving, with exact links to the original report and UH news release."
+      },
+      {
+        "id": "withdrawal",
+        "role": "Withdrawal",
+        "label": "University of Hawaiʻi · faculty author temporarily withdraws UHERO report",
+        "url": "https://manoa.hawaii.edu/news/article.php?aId=14683",
+        "dateLabel": "7 July 2026",
+        "note": "Primary institutional notice naming the report, identified errors, temporary withdrawal and planned comprehensive review and revision."
+      },
+      {
+        "id": "interview",
+        "role": "Author explanation reported in interview",
+        "label": "Hawaiʻi Public Radio · UHERO fellow admits error in energy report came from AI",
+        "url": "https://www.hawaiipublicradio.org/local-news/2026-07-09/uhero-fellow-admits-error-in-energy-report-came-from-ai",
+        "dateLabel": "9 July 2026",
+        "note": "Direct author interview distinguishes the original mislabeled solar contracts, the erroneous AI price-trend summary in an attempted revision, and overstated LNG costs. Author maintains his overall solar conclusion."
+      },
+      {
+        "id": "later-research",
+        "role": "Later research context",
+        "label": "UHERO · Workshop on Energy and Environmental Research, Fall 2026",
+        "url": "https://uhero.hawaii.edu/workshop-on-energy-and-environmental-research/",
+        "dateLabel": "31 August 2026 seminar",
+        "note": "Same-title analysis remains on a seminar page explicitly identifying research as preliminary. This is not evidence of a final replacement publication or reversal of the central recommendation."
+      },
+      {
+        "id": "state-critique",
+        "role": "Policy relevance and limitations",
+        "label": "Hawaiʻi State Energy Office · review of the Hartley/Roberts report",
+        "url": "https://energy.hawaii.gov/hseo-issue-brief-review-of-the-hartley-roberts-report-on-hawai%CA%BBis-electricity-future/",
+        "dateLabel": "9 July 2026",
+        "note": "Acknowledges temporary withdrawal and separately argues that the report lacks adequate reliability, siting and operational analysis for major planning decisions; governmental assessment must be attributed."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Live full-text Mirage release; exact report and original-news outgoing links; live University withdrawal notice; direct HPR author-interview article; later UHERO seminar abstract and preliminary-research warning; State Energy Office critique. Author's embedded written statement was inaccessible and is not claimed reviewed.",
+    "finder": "verify_methods",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": []
   },
   {
     "id": "avacopan-patient-guideline",
@@ -2244,6 +2661,82 @@
     ],
     "liveMethod": "Complete original catalogue, both actual paper editions, fresh Ukraine library and gender-policy listing, two independent reviews",
     "priority": 6
+  },
+  {
+    "studyId": "gatech-yoti-research-release-2026",
+    "region": "International",
+    "topic": "Technology & privacy",
+    "use": "Public information",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": null,
+    "changeDateLabel": "By 19 June 2026 · exact correction date unavailable",
+    "timing": "Still distributed",
+    "change": "Georgia Tech corrected its research-news article to remove statements that it says were posted in error and were not part of the researchers’ findings or intent. The revised account distinguishes IP, operating-system and browser metadata from ID information, without claiming that Yoti sends facial images to outside companies.",
+    "importance": "The retained allegation concerns distribution of facial images collected during age checks, a specific and serious privacy accusation used to challenge age-verification laws. The same public account explicitly connects the research to US state mandates, pending social-media restrictions and court assumptions about privacy. The correction materially changes what readers are told was demonstrated about facial-image sharing.",
+    "scope": "This is a formal correction to the university’s research-news article, not a retraction or established correction of the IEEE paper itself. The revised release still reports privacy concerns involving metadata and some ID information; it does not establish that all age verification is private or safe. Yoti’s own account that facial images never leave its systems is an interested-party claim, used here to identify the disputed statement and report its dated response. The university correction is undated separately; 19 June is the date of Yoti’s acknowledgment and contemporaneous reporting, not a verified exact modification timestamp. The correction concerns facial-age-estimation image sharing with outside third parties. It must not be generalized to all identity-verification methods: the underlying paper’s Table 3 separately describes ID/manual face-photo processing involving Yoti India. A broader outside-companies statement in an independent commentary was therefore excluded as insufficiently exact.",
+    "study": {
+      "title": "Online Age Checks Create a Pointless Privacy Risk",
+      "authors": "John Popham · Georgia Institute of Technology",
+      "journal": "Georgia Tech research-news article summarizing IEEE S&P research",
+      "year": 2026,
+      "url": "https://news.gatech.edu/news/2026/05/19/online-age-checks-create-pointless-privacy-risk"
+    },
+    "sources": [
+      {
+        "id": "college",
+        "role": "Still in use",
+        "label": "Georgia Tech Ivan Allen College · original research-news account",
+        "url": "https://iac.gatech.edu/news/item/690376/online-checks-create-pointless-privacy-risk",
+        "dateLabel": "19 May 2026",
+        "note": "Live college version retains explicit facial-image-to-credit-card-company allegation and no correction notice."
+      },
+      {
+        "id": "correction",
+        "role": "Correction",
+        "label": "Georgia Tech News Center · corrected article and formal notice",
+        "url": "https://news.gatech.edu/news/2026/05/19/online-age-checks-create-pointless-privacy-risk",
+        "dateLabel": "Original article 19 May 2026 · correction not separately dated",
+        "note": "Formal correction says the earlier version included statements outside researchers’ findings or intent; revised paragraph describes metadata and ID information without the facial-photo allegation."
+      },
+      {
+        "id": "company",
+        "role": "Affected company response",
+        "label": "Yoti · open letter and dated outcome update",
+        "url": "https://www.yoti.com/blog/open-letter-to-georgia-institute-of-technology-university-of-california-irvine-requesting-retraction-correction-false-statements/",
+        "dateLabel": "22 May 2026 · updated 19 June 2026",
+        "note": "Interested-party primary statement identifies the removed facial-image allegation and acknowledges university revisions on 19 June."
+      },
+      {
+        "id": "paper",
+        "role": "Underlying research context",
+        "label": "Papers, Please: A First Look at Age Verification on the Web",
+        "url": "https://mikespecter.com/assets/pdf/AgeVerification.pdf",
+        "dateLabel": "IEEE S&P 2026",
+        "note": "Both corrected main article and stale college article link this exact author-hosted PDF. The formal correction attaches to the news article, not this paper."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Live full text of university News Center correction, stale Ivan Allen College version, Yoti’s dated acknowledgment, and underlying author-hosted PDF; both university articles’ exact paper hyperlinks independently followed.",
+    "finder": "verify_methods",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": [],
+    "id": "us-gatech-yoti-college-privacy",
+    "entity": "Georgia Tech · Ivan Allen College of Liberal Arts",
+    "title": "A university college page retains a facial-image-sharing allegation removed from the main research release",
+    "publicDate": "19 May 2026 · currently available college article",
+    "publicDateShort": "19 May 2026",
+    "claim": "The college’s public account of research on Yoti says an age-verification attempt may send a facial image, IP address and device fingerprint to credit-card companies. It uses these claimed privacy risks to question existing and proposed age-verification laws.",
+    "quote": "a single verification attempt may transmit a user’s facial image, IP address, and device fingerprint to credit card companies.",
+    "quoteSource": "college",
+    "sourceSection": "Body · paragraph beginning According to the researchers",
+    "chain": "The college page and corrected News Center page share the exact title, original 19 May date, contact John Popham, research team, and author-hosted AgeVerification.pdf link. The college page retains the specific facial-image-to-outside-company statement removed from the corrected main account, whose formal notice says earlier statements were not the researchers’ findings or intent."
   },
   {
     "id": "uk-autism-policy-review",
@@ -4477,6 +4970,90 @@
     ]
   },
   {
+    "id": "germany-tagesschau-discrimination-complaints",
+    "studyId": "dezim-soep-discrimination-2026",
+    "region": "Germany",
+    "topic": "Education & society",
+    "use": "News coverage",
+    "entity": "tagesschau · ARD-aktuell",
+    "title": "A live tagesschau topic listing retains a fivefold overstatement of formal discrimination complaints",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": null,
+    "changeDateLabel": "2026 · exact correction insertion date unclear",
+    "publicDate": "10 March 2026 · 14:00 video headline remains listed",
+    "publicDateShort": "10 Mar 2026",
+    "timing": "Still distributed",
+    "claim": "The broadcaster's discrimination topic page still displays a video headline saying 44% of affected respondents formally complained.",
+    "quote": "Studie der Antidiskriminierungstelle: Nur 44% der befragten Betroffenen legen offiziell Beschwerde ein",
+    "quoteSource": "public",
+    "sourceSection": "Discrimination topic page · video listing dated 10 March 2026, 14:00",
+    "change": "tagesschau formally acknowledged that its report on the study misstated 44% as the proportion making an official complaint; the correct figure is 8.1%. It says the report and related social posts were taken offline. The underlying report independently gives 8.1% in section 3.4, printed page 68.",
+    "importance": "44% is approximately 5.4 times 8.1%, materially overstating use of formal complaint mechanisms. The study informs debate on discrimination protection, support services and reform of the General Equal Treatment Act; its researchers recommend more transparent, accessible complaint routes.",
+    "scope": "This is a formal correction of the broadcaster's interpretation, not a correction or retraction of the DeZIM/SOEP study. The verified surviving occurrence is a headline in an active topic listing; continued playback or the current content of that video was not verified. The corrected 20:00 broadcast page explicitly carries a warning. The correction log's 10 March timestamp identifies the original broadcast, not necessarily the date the correction was inserted. Survey interviews ran May 2022–January 2023 and asked about the preceding twelve months; they do not measure current 2026 prevalence. No deliberate concealment is established. The report’s 56% no-action share implies 44% took some form of action; official complaints were a distinct response, with multiple answers permitted.",
+    "chain": "The topic listing names the Antidiskriminierungsstelle study and repeats the exact official-complaint claim identified in tagesschau's own correction. Its corrected broadcast page identifies the study as Wie Deutschland Diskriminierung erlebt. Official DeZIM publication and project pages identify the Bartsch/Meksem SOEP report and link the federal agency's report. A complete third-party-hosted copy of that primary report confirms the title, authors, March 2026 publication, agency imprint and 8.1% complaint result.",
+    "study": {
+      "title": "Wie Deutschland Diskriminierung erlebt: Sonderauswertung des Sozio-oekonomischen Panels (SOEP)",
+      "authors": "Samera Bartsch and Miriam Meksem, with Ilse Kuschel",
+      "journal": "Antidiskriminierungsstelle des Bundes · DeZIM report",
+      "year": 2026,
+      "url": "https://www.dezim-institut.de/projekte/subjektive-diskriminierungserfahrungen-in-der-soep-hauptbefragung-2022-2-42/"
+    },
+    "sources": [
+      {
+        "id": "public",
+        "role": "Still in use",
+        "label": "tagesschau · discrimination topic listing",
+        "url": "https://www.tagesschau.de/thema/diskriminierung",
+        "dateLabel": "Video listing: 10 March 2026, 14:00 · checked 13 November 2026",
+        "note": "Live retrieved HTML retains exact 44% official-complaint headline without a nearby correction; video playback not inspected."
+      },
+      {
+        "id": "notice",
+        "role": "Formal media correction",
+        "label": "tagesschau · corrections log",
+        "url": "https://www.tagesschau.de/korrekturen",
+        "dateLabel": "2026 correction · exact insertion date not established",
+        "note": "Social-media section explicitly states 44% was false, correct figure 8.1%, posts removed."
+      },
+      {
+        "id": "broadcast",
+        "role": "Corrected broadcast notice",
+        "label": "tagesschau · 10 March 2026 broadcast",
+        "url": "https://www.tagesschau.de/tagesschau_20_uhr/ts-76894.html",
+        "dateLabel": "10 March 2026 broadcast · correction present",
+        "note": "Identifies exact study, repeats 44% to 8.1% correction and says segment removed."
+      },
+      {
+        "id": "report",
+        "role": "Primary report · third-party-hosted copy",
+        "label": "Federal Antidiscrimination Agency · full SOEP report",
+        "url": "https://www.civi-kune-rlp.de/wp-content/uploads/2026/03/Studie.pdf",
+        "dateLabel": "March 2026 · section 3.4, printed page 68",
+        "note": "Primary authored report confirms 8.1% official complaints; agency-hosted PDF returned 403, so this complete report copy was read instead."
+      },
+      {
+        "id": "study",
+        "role": "Official study identity and policy recommendations",
+        "label": "DeZIM · SOEP discrimination project",
+        "url": "https://www.dezim-institut.de/projekte/subjektive-diskriminierungserfahrungen-in-der-soep-hauptbefragung-2022-2-42/",
+        "dateLabel": "Study published 2026 · checked 13 November 2026",
+        "note": "Identifies authors, dataset, federal commission and publication; recommends AGG expansion and accessible complaint mechanisms."
+      }
+    ],
+    "occurrences": [],
+    "checked": "2026-11-13",
+    "liveMethod": "Full topic-listing HTML; broadcaster correction log and corrected broadcast notice; official DeZIM identity and project; extracted full primary report hosted by civi kune rlp. No video playback or PDF visual inspection claimed.",
+    "finder": "verify_policy",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2
+  },
+  {
     "id": "german-finance-climate-costs",
     "studyId": "10.1038/s41586-024-07219-0",
     "region": "Germany",
@@ -5367,6 +5944,90 @@
       "root"
     ],
     "priority": 11
+  },
+  {
+    "id": "uk-ofqual-extra-time-lbc",
+    "studyId": "ofqual-access-arrangements-2024",
+    "region": "United Kingdom",
+    "topic": "Education & society",
+    "use": "Media coverage",
+    "status": "Withdrawn",
+    "severity": "major",
+    "entity": "LBC",
+    "title": "Extra-exam-time gaming debate still cites withdrawn Ofqual counts",
+    "publicDate": "19 January 2025 · page labels an update on 10 February 2026",
+    "publicDateShort": "Jan 2025",
+    "changeDate": "2025-07-17",
+    "changeDateLabel": "17 July 2025 · replacement 27 November 2025",
+    "timing": "Still distributed",
+    "claim": "LBC reports that almost a third of pupils receive extra exam time, citing 420,000 pupils and a 42% private-school versus 27% state-school split, alongside suggestions that schools may be gaming the system.",
+    "quote": "Ofqual, the exam regulator, says there are 420,000 pupils receiving extra time in exams.",
+    "quoteSource": "lbc",
+    "sourceSection": "Opening paragraphs",
+    "change": "Ofqual withdrew its 2014–2024 access-arrangements statistics after finding substantial overstatement caused by duplicate applications and arrangements for students not taking exams that year. Its November replacement estimates 204,480–287,760 students approved for 25% extra time in 2023/24, or 14.7–20.6%, compared with the withdrawn 419,960 and 30.1%.",
+    "importance": "The old count is roughly 46–105% above the replacement range and helped frame a public debate about examination fairness, SEND support and alleged gaming by private schools. Retaining it makes an acknowledged reporting problem look like evidence about the scale and fairness of actual exam provision.",
+    "scope": "The replacement is a range reflecting unresolved record-linkage and duplicate uncertainty, not a single precise count. Figures describe approved arrangements, not verified use in examinations. Ofqual found no evidence of misuse or systemic failure and said students' access arrangements remained appropriate and valid. The corrected overall figures above compare the same 2023/24 year. The replacement's 2024/25 independent-school range must not be substituted for the old 2023/24 private-school percentage. This case does not establish that all private/state disparities vanished, that LBC itself accused schools of proven abuse, or that the statistics changed government policy. Retrievals show inconsistent updated labels: our first full text displayed 19 January 2025, while root independently retrieved a full page displaying 10 February 2026. That later label does not establish a substantive editorial review after withdrawal. The current page displays an update date of 10 February 2026, but this does not establish what changed then or knowledge of the withdrawal.",
+    "chain": "LBC explicitly attributes the count to Ofqual. Its rounded 420,000 and approximately one-third figures match the original 2023/24 release's 419,960 and 30.1%; the private/state figures match rounded 41.8% and 26.5%. The exact government release is now marked withdrawn and links the methodological explanation. The formal 17 July withdrawal covers that release, and the 27 November 2025 replacement explicitly provides revised 2023/24 values. The retrieved live LBC body retains the old counts without a withdrawal or correction warning.",
+    "study": {
+      "title": "Access arrangements for GCSE, AS and A level: 2023 to 2024 academic year",
+      "authors": "Ofqual",
+      "journal": "Official statistics",
+      "year": 2024,
+      "url": "https://www.gov.uk/government/statistics/access-arrangements-for-gcse-as-and-a-level-2023-to-2024-academic-year/access-arrangements-for-gcse-as-and-a-level-2023-to-2024-academic-year"
+    },
+    "sources": [
+      {
+        "id": "lbc",
+        "role": "Still in use",
+        "label": "LBC · extra exam time and alleged gaming",
+        "url": "https://www.lbc.co.uk/article/nearly-a-third-of-pupils-receiving-extra-exam-time-5HjcyK5_2/",
+        "dateLabel": "19 January 2025 · displayed update 10 February 2026",
+        "note": "Live body retains 420,000, almost a third, 42% private and 27% state; concerns about gaming are attributed to headteachers and alternative explanation of greater learning needs is included."
+      },
+      {
+        "id": "withdrawal",
+        "role": "Withdrawal",
+        "label": "Ofqual · formal statistics withdrawal",
+        "url": "https://www.gov.uk/government/news/ofqual-withdraws-access-arrangements-statistics",
+        "dateLabel": "17 July 2025",
+        "note": "Primary notice withdraws 2014–2024 data for substantial overstatement; arrangements and other statistics unaffected."
+      },
+      {
+        "id": "explanation",
+        "role": "Correction explanation",
+        "label": "Ofqual · detailed methodological explanation",
+        "url": "https://ofqual.blog.gov.uk/2025/07/17/shedding-new-light-on-access-arrangements-data/",
+        "dateLabel": "17 July 2025",
+        "note": "Duplicates, non-exam-year students, no evidence of misuse or systemic failure."
+      },
+      {
+        "id": "old",
+        "role": "Withdrawn statistics",
+        "label": "Ofqual · original 2023/24 tables",
+        "url": "https://www.gov.uk/government/statistics/access-arrangements-for-gcse-as-and-a-level-2023-to-2024-academic-year/access-arrangements-for-gcse-as-and-a-level-2023-to-2024-academic-year",
+        "dateLabel": "7 November 2024 · withdrawn July 2025",
+        "note": "419,960 and 30.1% for 25% extra time; centre rates 41.8% independent and 26.5% non-selective state."
+      },
+      {
+        "id": "replacement",
+        "role": "Replacement",
+        "label": "Ofqual · revised data including 2023/24",
+        "url": "https://www.gov.uk/government/statistics/access-arrangements-for-gcse-as-and-a-level-2024-to-2025-academic-year/access-arrangements-for-gcse-as-and-a-level-2024-to-2025-academic-year",
+        "dateLabel": "27 November 2025",
+        "note": "Table 3 revises the same 2023/24 year to 204,480–287,760 and 14.7–20.6%; official statistics in development with explicit uncertainty."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Full live LBC article and displayed publication/update dates; formal Ofqual withdrawal, methodological explanation, withdrawn exact tables and replacement same-year tables. Compared the 2023/24 estimates, rather than substituting 2024/25 values.",
+    "finder": "verify_methods",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": []
   },
   {
     "id": "german-groundwater-commercial-guide",
