@@ -9,6 +9,15 @@
     "title": "A German GP summary retains safety figures from a trial replaced in October 2026",
     "status": "Retracted & republished",
     "severity": "major",
+    "severityReason": "The trial was replaced: metformin side effects rose from 28.8% to 45.1%, above placebo's 35.5%, and the results are now called inconclusive, so the summary's comparison no longer holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-10-06",
     "publicDate": "Article published 30 April 2026 · still available",
     "publicDateShort": "30 Apr 2026",
@@ -117,6 +126,15 @@
     "use": "Political reporting",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The Finance Ministry corrected the 2026 deficit forecast from €21.4 billion to €22 billion. The 4.1% share of economic output is unchanged, so the article is only slightly off.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-10-02",
     "timing": "Published after correction",
     "entity": "Heute",
@@ -210,6 +228,15 @@
     "use": "Political reporting",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The Finance Ministry corrected the 2026 deficit forecast from €21.4 billion to €22 billion. The 4.1% share of economic output is unchanged, so the report is only slightly off.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-10-02",
     "timing": "Still distributed",
     "entity": "Reuters · distributed by Onvista",
@@ -303,6 +330,15 @@
     "use": "Political reporting",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The Finance Ministry corrected the 2026 deficit forecast from €21.4 billion to €22 billion. The 4.1% share of economic output is unchanged, so the report is only slightly off.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-10-02",
     "timing": "Still distributed",
     "entity": "ORF",
@@ -396,6 +432,15 @@
     "use": "Policy advocacy",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted study is the only source for the paper's 469 terawatt-hours of energy, 192 million tonnes of carbon dioxide and 51% saving. No corrected figures exist; authors dispute it.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "entity": "Danfoss · English-language Impact policy paper",
     "title": "A water-and-energy policy paper still uses irrigation estimates from a retracted study",
     "publicDate": "2025 · currently available Danfoss Impact Issue No. 7",
@@ -482,6 +527,15 @@
     "title": "A climate-policy article still presents a retracted review as proof that CO₂ does not drive climate change",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted review is the only support Report24 offers for its claim that carbon dioxide does not cause climate change. No replacement exists, and the journal found its conclusions unsupported.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-16",
     "publicDate": "2 October 2023 · article remains publicly available",
     "publicDateShort": "2 Oct 2023",
@@ -570,6 +624,15 @@
     "use": "Public information",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted paper is the only basis for the claim that flood models match past losses within about 4%. Its authors say core conclusions may be affected; no replacement exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "entity": "PreventionWeb · UNDRR disaster-risk knowledge platform",
     "title": "A disaster-risk knowledge page still presents validation claims from a retracted US flood-model comparison",
     "publicDate": "2026 · page last checked 24 February 2026",
@@ -654,6 +717,15 @@
     "use": "Public education and parliamentary evidence",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The guide's 4.3% for 2023 was corrected to 5.9%. The corrected report says the 2022 and 2023 rates are statistically similar, so the described decline no longer stands.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-08",
     "timing": "Updated after correction",
     "entity": "DAK-Gesundheit · parent guide",
@@ -743,7 +815,16 @@
     "topic": "Public health",
     "use": "Parliamentary evidence",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The 4.3% for 2023 quoted to the committee was corrected to 5.9%. The witness made no claim about a decline, so the overall message about gaming problems still largely holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-08",
     "timing": "Still distributed",
     "entity": "Rainer Thomasius · evidence to the Bundestag family committee",
@@ -843,6 +924,15 @@
     "use": "Public education",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The article's 4.3% for 2023 was corrected to 5.9%, and the 2022 and 2023 rates are now called statistically similar. The claimed fall from 6.3% therefore no longer stands.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-08",
     "timing": "Still distributed",
     "entity": "AOK",
@@ -934,6 +1024,15 @@
     "use": "Policy evidence review",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The UK's statistics office corrected overseas visitors' 2024 spending from £32.5 billion to £31.6 billion. The review's point about tourism's economic contribution is unaffected.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-04",
     "timing": "Published after correction",
     "entity": "Department for Culture, Media and Sport · Ipsos review",
@@ -1034,6 +1133,15 @@
     "use": "Parliamentary evidence",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The UK's statistics office corrected overseas visitors' 2024 spending from £32.5 billion to £31.6 billion. The visit count is unchanged, so the evidence is only slightly off.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-04",
     "timing": "Still distributed",
     "entity": "Department for Culture, Media and Sport",
@@ -1128,6 +1236,15 @@
     "title": "A drought article still reports figures from a study retracted in September 2026",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted paper is the only source for the article's claim that drought severity rose 40% since 1981. Its figures were affected by processing errors, and no replacement percentage exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-02",
     "publicDate": "Article published 6 June 2025 · still available",
     "publicDateShort": "6 Jun 2025",
@@ -1191,7 +1308,16 @@
     "entity": "Competition and Markets Authority",
     "title": "A UK regulator’s evidence review still uses a deadline experiment retracted in September 2026",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted experiment is one of the review's supports for self-commitment. The review also cites another productivity study and warns about backfiring, so other support remains.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-02",
     "publicDate": "5 April 2022 · current government reference document",
     "publicDateShort": "5 Apr 2022",
@@ -1264,6 +1390,15 @@
     "title": "An energy-practitioner presentation retains a withdrawn drought-severity result",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted paper is the only source for the talk's 40% drought-severity and three-quarters area figures. Processing errors affected its numbers, and no replacement figures exist.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-02",
     "publicDate": "19 November 2025 · webinar presentation",
     "publicDateShort": "19 Nov 2025",
@@ -1336,6 +1471,15 @@
     "title": "A council revenue guide still cites a retracted experiment for its deadline advice",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The guide's claim that deadlines help with procrastination cites only the retracted experiment as its reference. Both authors agreed to the retraction, and no replacement result is given.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-09-02",
     "publicDate": "15 March 2018 · guide still supplied",
     "publicDateShort": "15 Mar 2018",
@@ -1408,6 +1552,15 @@
     "title": "A pharmacy publication retains workplace advice from an AI study withdrawn in August 2026",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The withdrawn study is the only basis for the article's finding that 58% said AI did most of the thinking, and for its AI-free-days advice. No replacement result exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-08-31",
     "publicDate": "Article published 27 April 2026 · still available",
     "publicDateShort": "27 Apr 2026",
@@ -1477,6 +1630,15 @@
     "use": "Budget policy commentary",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The UK tax authority corrected 2023/24 capital gains tax from £12.1 billion to £12.773 billion, about 6% higher. The article's argument is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-08-27",
     "timing": "Published after correction",
     "entity": "The World Financial Review · UK budget commentary",
@@ -1575,6 +1737,15 @@
     "use": "Professional reporting",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The UK tax authority fixed a processing error: 2023/24 capital gains tax went from £12.1 billion to £12.773 billion, about 6% higher. The report's message is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-08-27",
     "timing": "Still distributed",
     "entity": "Professional Paraplanner · Jason Hollands",
@@ -1675,6 +1846,15 @@
     "title": "A crime-policy article retains an ONS undercount of repeated-harassment victims",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The UK's statistics office corrected the number of repeated-harassment victims from about 1.1 million to about 1.7 million. The year-on-year fall also became a rise.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-08-13",
     "publicDate": "2 August 2026 · article remains publicly available",
     "publicDateShort": "2 Aug 2026",
@@ -1750,6 +1930,15 @@
     "title": "A parliamentary witness statement still cites a retracted mortality paper",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted paper is the only support cited for blaming excess deaths on mass vaccination. The study did not establish that vaccination caused excess deaths, and no replacement exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-08-11",
     "publicDate": "Statement dated 16 March 2026 · still distributed",
     "publicDateShort": "16 Mar 2026",
@@ -1826,7 +2015,16 @@
     "topic": "Climate & environment",
     "use": "Public reporting",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The statistics office said 51,670 heat-related deaths was an overestimate caused by a code error. Its later estimate is 40,063. The commentary's figure is too high; its message holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-07-24",
     "timing": "Still distributed",
     "entity": "London School of Hygiene & Tropical Medicine",
@@ -1901,7 +2099,16 @@
     "topic": "Climate & environment",
     "use": "Public reporting",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The statistics office said 51,670 heat-related deaths was an overestimate caused by a code error. Its later estimate is 40,063. The article's figure is too high; its message holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-07-24",
     "timing": "Still distributed",
     "entity": "Chartered Institute of Environmental Health · Environmental Health News",
@@ -1976,7 +2183,16 @@
     "topic": "Climate & environment",
     "use": "Institutional annual report",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The statistics office said 51,670 heat-related deaths was an overestimate caused by a code error. Its later estimate is 40,063, and the figure appears only in a case study.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-07-24",
     "timing": "Still distributed",
     "entity": "London School of Hygiene & Tropical Medicine",
@@ -2054,6 +2270,15 @@
     "title": "A Justice Department summary retains an inflated human-trafficking prosecution increase",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "A coding error was fixed: the summary's 73% rise in federal trafficking prosecutions became 18%, and 1,782 prosecutions in 2023 became 1,213. The rise remains, but is far smaller.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-07-23",
     "publicDate": "January 2026 · OJP catalogue labels 1 January; BJS release was 26 January",
     "publicDateShort": "Jan 2026",
@@ -2127,6 +2352,15 @@
     "use": "Public information",
     "status": "Withdrawn",
     "severity": "major",
+    "severityReason": "The withdrawn report is the only basis for the $3.4 billion saving and the claim of a cheapest electricity path. The author is correcting errors; no revised figures yet.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "entity": "Mirage News · syndicated University of Hawaiʻi release",
     "title": "An energy-policy release still presents conclusions from a temporarily withdrawn UHERO report",
     "publicDate": "30 June 2026 · currently available syndication",
@@ -2213,6 +2447,15 @@
     "title": "A patient guideline retains an avacopan recommendation after its pivotal trial was retracted",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The guide bases its avacopan recommendation explicitly on the ADVOCATE trial, which was retracted. EU approval of the drug was also revoked, and no replacement evidence is given.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-06-29",
     "publicDate": "Patient version 1.0 · currently offered for download",
     "publicDateShort": "Undated",
@@ -2309,6 +2552,15 @@
     "title": "A professional guideline retains an avacopan recommendation after the trial’s retraction",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "Recommendation 5.4 on avacopan rests explicitly on the ADVOCATE trial, which was retracted. EU approval of the drug was also revoked, and no replacement evidence is given.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-06-29",
     "publicDate": "2025 professional guideline edition · recommendation dated 2023",
     "publicDateShort": "2025",
@@ -2403,6 +2655,15 @@
     "use": "Public reporting",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted trial is the only evidence the article presents for earlier treatment slowing lung cancer. Its 11.3 versus 5.7 months result has no replacement.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-06-24",
     "timing": "Still distributed",
     "entity": "University of Geneva · Faculty of Medicine",
@@ -2493,6 +2754,15 @@
     "use": "Government policy report",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "Public Health Scotland corrected the estimate of people with opioid dependence from 43,400 to 43,600. The error was in presentation only, so the report is almost unaffected.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-06-23",
     "timing": "Published after correction",
     "entity": "Scottish Government · National Mission on Drugs",
@@ -2564,7 +2834,16 @@
     "topic": "Social policy",
     "use": "Policy research distribution",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The catalogue said a different benefits law already applied to Ukrainian refugees; the corrected edition says it was only a cabinet proposal. Wording changed, not a figure or the analysis.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "June 2026",
     "timing": "Still distributed",
@@ -2669,6 +2948,15 @@
     "use": "Public information",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "Georgia Tech removed statements, posted in error, that facial images go to credit-card companies. The college's privacy argument against age-verification laws loses its main claim.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "By 19 June 2026 · exact correction date unavailable",
     "timing": "Still distributed",
@@ -2748,6 +3036,15 @@
     "title": "A UK government-commissioned autism review retains a withdrawn prevalence finding",
     "status": "Withdrawn",
     "severity": "major",
+    "severityReason": "The review's claim that adult autism was stable relies on the withdrawn 0.9% estimate. The replacement says no reliable estimate or comparison with 2014 is possible, so the claim falls.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-05-18",
     "publicDate": "31 March 2026 · interim report · updated 10 June 2026",
     "publicDateShort": "31 Mar 2026",
@@ -2838,6 +3135,15 @@
     "title": "An OECD policy report retains a withdrawn English autism prevalence finding",
     "status": "Withdrawn",
     "severity": "major",
+    "severityReason": "The report's claim of stable adult autism in England relies on the withdrawn 0.9% estimate. The replacement says no reliable estimate or comparison over time is possible, so it falls.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-05-18",
     "publicDate": "26 March 2026",
     "publicDateShort": "26 Mar 2026",
@@ -2918,6 +3224,15 @@
     "use": "Public policy information",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "Statistics Austria corrected the 2025 poverty-risk figure from 18.8% (1,699,000 people) to 18.6% (1,686,000). The difference is tiny and the network's message is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-05-12",
     "timing": "Still distributed",
     "entity": "Armutskonferenz · Austrian poverty facts",
@@ -3010,6 +3325,15 @@
     "use": "Public reporting",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "Statistics Austria corrected the 2025 poverty-risk figure from 18.8% (1,699,000 people) to 18.6% (1,686,000). The difference is tiny and the budget report's point is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-05-12",
     "timing": "Still distributed",
     "entity": "Kathpress · published by katholisch.at",
@@ -3103,6 +3427,15 @@
     "use": "Political commentary",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "Statistics Austria corrected the 2025 poverty-risk figure from 18.8% to 18.6%. The difference is tiny and the commentary's contrast with dollar millionaires is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-05-12",
     "timing": "Published after correction",
     "entity": "Unsere Zeitung",
@@ -3198,6 +3531,15 @@
     "title": "A parliamentary research brief retains a retracted ChatGPT learning result",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted analysis is the basis for the brief's claim of a large learning benefit and its support for using ChatGPT in schools. No replacement result exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-04-22",
     "publicDate": "Brief completed 25 November 2025 · still distributed",
     "publicDateShort": "25 Nov 2025",
@@ -3267,6 +3609,15 @@
     "use": "Teacher education",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The article's claims that ChatGPT improves higher-order thinking, and that experience with AI matters, rest on the retracted analysis. No replacement result exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-04-22",
     "timing": "Still distributed",
     "entity": "Medienimpulse · Austrian education-ministry journal",
@@ -3358,6 +3709,15 @@
     "title": "ZDF still headlines a hospital-treatment figure corrected the next day",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The headline's seven million alcohol-related hospital treatments a year was declared false by the addiction yearbook it cited. The replacement official figure is about 283,500, about 25 times smaller.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-04-17",
     "publicDate": "Article published 16 April 2026 · still available",
     "publicDateShort": "16 Apr 2026",
@@ -3427,6 +3787,15 @@
     "use": "Political reporting",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "Swiss broadcaster SRF said just under a quarter want more military spending. The report was corrected to about 40%, which changes the picture of public priorities.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "April 2026",
     "timing": "Still distributed",
@@ -3520,6 +3889,15 @@
     "title": "A vaccine advocacy article retains the SIDS inference rejected when its source was removed",
     "status": "Withdrawn",
     "severity": "major",
+    "severityReason": "The withdrawn study is the only basis for the 58% and 78% timing figures and the claimed vaccine–infant-death link. The journal said its methods could not support that conclusion.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-04-09",
     "publicDate": "3 August 2021 · German-language article remains publicly available",
     "publicDateShort": "3 Aug 2021",
@@ -3601,6 +3979,15 @@
     "title": "A parliamentary call for savings reform still cites a withdrawn HMRC survey",
     "status": "Withdrawn",
     "severity": "major",
+    "severityReason": "The 87% figure comes from a survey withdrawn as unreliable, and it is the committee chair's key evidence on whether the subsidy is good value. No replacement figure exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-03-26",
     "publicDate": "11 September 2025 · statement still online",
     "publicDateShort": "11 Sept 2025",
@@ -3671,7 +4058,16 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The Scottish Government corrected the shares of adults with a long-term condition: mobility 32% became 41%, stamina 28% became 37%, mental health 26% became 32%. The overall picture is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-03-19",
     "timing": "Still distributed",
     "entity": "STV News · PA Media",
@@ -3761,7 +4157,16 @@
     "topic": "Public health",
     "use": "Survey findings",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The page still gives 32%, 28% and 26% for three impairments. Corrected figures are 41%, 37% and 32%, all noticeably higher, though the general picture stays the same.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-03-19",
     "timing": "Still distributed",
     "entity": "National Centre for Social Research · ScotCen",
@@ -3851,7 +4256,16 @@
     "topic": "Public health",
     "use": "Research press release",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The launch release gives 32%, 28% and 26% for three impairments. Corrected figures are 41%, 37% and 32%, all noticeably higher, though the general picture stays the same.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-03-19",
     "timing": "Still distributed",
     "entity": "National Centre for Social Research · launch press release",
@@ -3941,7 +4355,16 @@
     "topic": "Public finance",
     "use": "Response to Parliament",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The UK's statistics office fixed a spreadsheet error, raising NHS productivity growth for 2022/23 from 1.9% to 2.9%. The Treasury's point that productivity improved still holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-03-17",
     "timing": "Still distributed",
     "entity": "HM Treasury · response to the Public Accounts Committee",
@@ -4037,6 +4460,15 @@
     "use": "Government policy plans",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The housing ministry corrected the number of families in bed-and-breakfast accommodation beyond six weeks from 2,070 to 2,130. The difference is small and the plan's message is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-02-26",
     "timing": "Still distributed",
     "entity": "UK Government · National Plan to End Homelessness",
@@ -4138,6 +4570,15 @@
     "use": "Government policy plans",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The housing ministry corrected the number of families in bed-and-breakfast accommodation beyond six weeks from 2,070 to 2,130. The difference is small and the strategy's message is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-02-26",
     "timing": "Still distributed",
     "entity": "Cabinet Office · Child Poverty Strategy",
@@ -4239,6 +4680,15 @@
     "use": "Local policy evidence",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The housing ministry corrected the number of families in bed-and-breakfast accommodation beyond six weeks from 2,070 to 2,130. The difference is small and the evidence review's message is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-02-26",
     "timing": "Published after correction",
     "entity": "Haringey Council · homelessness evidence review",
@@ -4357,7 +4807,16 @@
     "entity": "GambleAware · Social Finance",
     "title": "A gambling policy report still presents findings from a retracted 41-study review",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted review is one piece of evidence in the report. Its own survey, content analysis and interview work remain, so the report is only partly affected.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 2
+    },
     "changeDate": "2026-02-09",
     "publicDate": "September 2025 · current research-library download",
     "publicDateShort": "Sept 2025",
@@ -4430,6 +4889,15 @@
     "title": "A public autism-drug explainer retains a positive trial result after retraction",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The retracted trial is the only evidence given for folinic acid helping autistic children, and the article does not mention the retraction. No replacement result exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2026-01-29",
     "publicDate": "23 September 2025",
     "publicDateShort": "23 Sept 2025",
@@ -4518,7 +4986,16 @@
     "entity": "ITV News",
     "title": "An ITV investigation retains causes of death from a withdrawn NHS-commissioned report",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "A processing error led to a replacement report. Digestive cancers left the top three causes and the avoidable share is 40.2%. ITV's ranking is outdated; the broad finding stands.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "resolved",
+      "round": 2
+    },
     "changeDate": "2026-01-27",
     "publicDate": "2 September 2025",
     "publicDateShort": "2 Sept 2025",
@@ -4608,7 +5085,16 @@
     "entity": "The Standard",
     "title": "The Standard retains a corrected count and share of avoidable deaths",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "A processing error led to a replacement report. The avoidable share rose from 38.8% to 40.2% and digestive cancers left the top three. The old ranking stays; the finding stands.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 2
+    },
     "changeDate": "2026-01-27",
     "publicDate": "2 September 2025",
     "publicDateShort": "2 Sept 2025",
@@ -4694,6 +5180,15 @@
     "topic": "Climate & environment",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "Greenpeace corrected its summary: 56% was Cyprus's figure, and the average across the countries is about 15%. The claim that over half of Europeans lack public transport no longer holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "Correction date unclear (2026)",
     "timing": "Still distributed",
@@ -4764,6 +5259,15 @@
     "use": "Policy advocacy",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The Joseph Rowntree Foundation, a poverty charity, found a coding error: its proposed minimum floor would lift 30,000 people, including 10,000 children, out of poverty, not 130,000 and 80,000.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "2026 · exact correction date unclear",
     "timing": "Still distributed",
@@ -4840,6 +5344,15 @@
     "use": "Policy advocacy",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The Joseph Rowntree Foundation, a poverty charity, found a coding error: its proposed minimum floor would lift 30,000 people, including 10,000 children, out of poverty, not 130,000 and 80,000.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "2026 · exact correction date unclear",
     "timing": "Still distributed",
@@ -4906,6 +5419,15 @@
     "topic": "Climate & environment",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "Greenpeace corrected its summary: 56% was Cyprus's figure; the average across the countries studied is about 15%. The claim that over half of Europe lacks public transport no longer holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "Correction date unclear (2026)",
     "timing": "Still distributed",
@@ -4979,6 +5501,15 @@
     "title": "A live tagesschau topic listing retains a fivefold overstatement of formal discrimination complaints",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "tagesschau said 44% was wrongly reported as the share who made an official complaint; the correct figure is 8.1%. The headline overstates complaints more than fivefold.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "2026 · exact correction insertion date unclear",
     "publicDate": "10 March 2026 · 14:00 video headline remains listed",
@@ -5063,6 +5594,15 @@
     "title": "A 2026 finance-policy handbook teaches estimates from a retracted climate paper",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The 19% global income loss and six-to-one cost comparison come from a retracted Nature paper. The handbook uses them to argue for investing now, and no replacement estimate exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-12-03",
     "publicDate": "Handbook published February 2026",
     "publicDateShort": "Feb 2026",
@@ -5128,7 +5668,16 @@
     "studyId": "10.1038/s41586-024-07219-0",
     "topic": "Climate & environment",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted $38 trillion damage estimate appears only in a footnote giving global background. The assessment's main subject, Swiss options on EU deforestation rules, is separate.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-12-03",
     "timing": "Still distributed",
     "change": "Nature retracted the paper after data and modelling problems required revisions too extensive for a correction.",
@@ -5223,6 +5772,15 @@
     "publicDateShort": "23 Oct 2024",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The background briefing's $38 trillion yearly damage figure comes only from the retracted Nature paper. No replacement estimate exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-12-03",
     "claim": "The backgrounder says climate damages will cost around $38 trillion per year by 2050, linking to the study’s institutional press release.",
     "change": "Nature retracted the underlying economic-damages paper after data and analysis problems required changes too substantial for a correction.",
@@ -5294,6 +5852,15 @@
     "title": "A school climate resource retains estimates from a retracted paper",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The resource's $38 trillion loss, 19% of global economic output, and its one-sixth cost claim all come from the retracted Nature paper. No replacement estimate exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-12-03",
     "publicDate": "September 2025 · second updated edition",
     "publicDateShort": "Sept 2025",
@@ -5365,6 +5932,15 @@
     "title": "A business magazine cites a withdrawn climate-damage estimate in adaptation guidance",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The article's $38 trillion annual damage figure comes from the retracted Nature paper and underpins its argument that businesses should adapt. Its other points use separate material.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-12-03",
     "publicDate": "1 March 2026",
     "publicDateShort": "1 Mar 2026",
@@ -5426,6 +6002,15 @@
     "use": "Policy report",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The UK's statistics office corrected the July 2022 peak annual rise in prices charged by UK producers from 19.6% to 18.0%. The difference is small and the conclusion is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-10-22",
     "timing": "Still distributed",
     "entity": "Trades Union Congress",
@@ -5513,6 +6098,15 @@
     "use": "Monetary policy accountability",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "The UK's statistics office corrected the mid-2022 peak annual rise in prices charged by UK producers from 19.6% to 18.0%. The difference is small and the letter's conclusion is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-10-22",
     "timing": "Still distributed",
     "entity": "Bank of England · Andrew Bailey",
@@ -5593,7 +6187,16 @@
     "entity": "Bundestag Scientific Services",
     "title": "A parliamentary research summary retains safety conclusions from a withdrawn glyphosate review",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted review is one of several studies summarised in the overview, which also includes findings pointing the other way. The overview is not built on this review alone.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "Late 2025",
     "publicDate": "28 June 2016",
@@ -5668,7 +6271,16 @@
     "entity": "Naturecan · German online shop",
     "title": "German supplement sales still use a retracted vinegar trial",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The withdrawn trial is one of several studies cited on the sales page, and it tested liquid vinegar rather than the gummies. The page's claim is therefore only partly affected.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 2
+    },
     "changeDate": "2025-09-23",
     "publicDate": "Live sales page · no publication date shown",
     "publicDateShort": "Undated",
@@ -5741,6 +6353,15 @@
     "title": "A clinic’s weight-loss advice retains a retracted vinegar trial result",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The article's 6–8 kg weight-loss claim over twelve weeks rests on the withdrawn trial, whose results could not be replicated. No replacement result exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-09-23",
     "publicDate": "Published 15 October 2025 · updated 8 July 2026",
     "publicDateShort": "15 Oct 2025",
@@ -5812,7 +6433,16 @@
     "entity": "Nordic Oil · German online shop",
     "title": "A supplement seller’s 2026 MS advice retains a retracted disability result",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted trial's table is cited alongside other studies, and the page admits the evidence is limited. So the claim is only partly affected; the authors dispute the retraction.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 2
+    },
     "changeDate": "2025-08-14",
     "publicDate": "Advice page updated 18 August 2026",
     "publicDateShort": "Updated 18 Aug 2026",
@@ -5884,6 +6514,15 @@
     "title": "A business article retains an innovation finding reversed by DIW’s correction",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The German economic institute DIW corrected a calculation error. The interview first said patent applications for cleaner combustion engines fall long term; the revised interview says they rise.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-07-22",
     "publicDate": "Article published 6 June 2025 · still available",
     "publicDateShort": "6 Jun 2025",
@@ -5953,6 +6592,15 @@
     "use": "Media coverage",
     "status": "Withdrawn",
     "severity": "major",
+    "severityReason": "England's exams regulator, Ofqual, withdrew its extra-time statistics as overstated. The replacement gives 14.7–20.6% of pupils, not 30.1%, so 'almost a third' no longer holds.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "entity": "LBC",
     "title": "Extra-exam-time gaming debate still cites withdrawn Ofqual counts",
     "publicDate": "19 January 2025 · page labels an update on 10 February 2026",
@@ -6039,6 +6687,15 @@
     "title": "A water-system seller still distributes the original version of a corrected groundwater report",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The German environmental group BUND corrected its foreword: the study does not show that extraction already exceeds replenishment. The article defines groundwater stress that way and embeds the old wording.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-07-07",
     "publicDate": "Undated product-advice article · still distributed",
     "publicDateShort": "Undated",
@@ -6119,7 +6776,16 @@
     "title": "A shopping guide reports one correction but retains a later-corrected exposure estimate",
     "publicDateShort": "Updated Sept 2025",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "A second correction cut the estimated exposure from 34,700 to 7,900 nanograms a day. That is still far below the safe-intake reference value, so the advice to replace utensils stands.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 2
+    },
     "changeDate": "2025-07-03",
     "claim": "The utensil replacement guide still gives an estimated BDE-209 exposure of 34,700 nanograms per day.",
     "change": "A second correction reduced that estimate to 7,900 ng/day after the authors identified a misinterpreted exposure formula.",
@@ -6188,6 +6854,15 @@
     "use": "Pension-policy reporting",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The study was corrected: child-rearing credits narrow the gender pension gap by nine points (47% to 38%), not four (41% to 37%). The effect is more than twice as large.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-06-18",
     "timing": "Still distributed",
     "entity": "Frankfurter Rundschau",
@@ -6266,6 +6941,15 @@
     "use": "Professional reporting",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The corrected study shows credits cut the gender pension gap from 47% to 38%, not 41% to 37%, and the mothers-versus-childless gap from 41% to 27%, not 31% to 26%.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-06-18",
     "timing": "Still distributed",
     "entity": "Haufe · Sozialwesen",
@@ -6349,6 +7033,15 @@
     "use": "Research communication",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "DIW's release says credits narrow the gender pension gap by four points and the mothers-versus-childless gap by five. The corrected study gives nine and fourteen points, much larger effects.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-06-18",
     "timing": "Still distributed",
     "entity": "DIW Berlin · public press release",
@@ -6433,7 +7126,16 @@
     "entity": "Frankfurter Neue Presse / IPPEN",
     "title": "A public-broadcasting story retains council figures corrected by the study’s publisher",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "Corrected shares of politically connected council members: Radio Bremen 15% to 27%, Deutschlandradio 56% to 53%. The all-councils total barely moved (41% to 42%), so the article's point stands.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-06-11",
     "publicDate": "Article updated 3 April 2025 · still available",
     "publicDateShort": "Updated 3 Apr 2025",
@@ -6495,7 +7197,16 @@
     "topic": "Education & AI",
     "use": "AI-policy evidence",
     "status": "Withdrawn",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The withdrawn preprint is the cited reference for a tentative suggestion that AI could speed up science. Other productivity studies in the report are unaffected.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 2
+    },
     "changeDate": "2025-05-20",
     "timing": "Still distributed",
     "entity": "International AI Safety Report · UK parliamentary deposit",
@@ -6592,6 +7303,15 @@
     "use": "Public reporting",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "DAK, a health insurer, withdrew the comparison: the two years used different diagnosis rules. With one rule, depression sick days rose just 0.2%, not 50%, so the claimed jump disappears.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-03-31",
     "timing": "Still distributed",
     "entity": "Tagesschau",
@@ -6690,6 +7410,15 @@
     "use": "Public health information",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "DAK, a health insurer, withdrew the comparison: the two years used different diagnosis rules. With one rule, depression sick days rose just 0.2%, not 50%, so the claimed jump disappears.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2025-03-31",
     "timing": "Still distributed",
     "entity": "Federal Institute of Public Health · men’s health portal",
@@ -6788,7 +7517,16 @@
     "topic": "Climate & environment",
     "use": "Parliamentary motion",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted study estimated 385 million poisonings a year. The authors' own 2026 analysis gives 402–433 million, so the figure is close, but they dispute the retraction.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-10-09",
     "timing": "Published after retraction",
     "entity": "Die Linke · Bundestag motion 21/8073",
@@ -6861,7 +7599,16 @@
     "topic": "Climate & environment",
     "use": "Policy explainer",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted study estimated 385 million poisonings a year. The authors' own 2026 analysis gives 402–433 million, so the figure is close, but they dispute the retraction.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-10-09",
     "timing": "Still distributed",
     "entity": "Public Eye",
@@ -6927,7 +7674,16 @@
     "topic": "Climate & environment",
     "use": "Parliamentary reporting",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted study gave 385 million poisonings and about 11,000 deaths a year. The authors' 2026 analysis gives 402–433 million and 11,413: close, though they dispute the retraction.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-10-09",
     "timing": "Published after retraction",
     "entity": "German Bundestag · parliamentary news service",
@@ -7009,7 +7765,16 @@
     "topic": "Climate & environment",
     "use": "Public education",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The retracted study estimated 385 million poisonings a year. The authors' 2026 analysis gives 402–433 million, so the figure is close, though they dispute the retraction.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-10-09",
     "timing": "Still distributed",
     "entity": "Public Eye · Heinrich Böll Foundation",
@@ -7083,7 +7848,16 @@
     "topic": "Public finance",
     "use": "Political reporting",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "Swiss officials corrected formula errors: the projected 2033 pension shortfall is 5.044 billion Swiss francs, not 7.3 billion, and fund assets 60% of yearly spending, not 45%. A gap remains.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-09-16",
     "timing": "Still distributed",
     "entity": "Blick · pension financing explainer",
@@ -7183,7 +7957,16 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "A calculation error was fixed: people reached by prevention activities fell from 9.26 million to 8.37 million, and the yearly rise from 55% to 40%. Both are still large.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "September 2024",
     "timing": "Still distributed",
@@ -7260,7 +8043,16 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "A calculation error was fixed: people reached by prevention activities fell from 9.26 million to 8.37 million, and the yearly rise from 55% to 40%. Both are still large.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "September 2024",
     "timing": "Still distributed",
@@ -7338,7 +8130,16 @@
     "topic": "Public health",
     "use": "Public reporting",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "A calculation error was fixed: people reached by prevention activities fell from 9.26 million to 8.37 million, and the yearly rise from 55% to 40%. Both are still large.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "September 2024",
     "timing": "Still distributed",
@@ -7417,6 +8218,15 @@
     "use": "Federal policy guidance",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "Germany's statistics office corrected a processing error: women's extra unpaid care time is 44.3%, not 43.8% (79, not 77 minutes a day). The difference is small; the conclusion is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-03-28",
     "timing": "Published after correction",
     "entity": "Federal Ministry for Housing, Urban Development and Building",
@@ -7525,6 +8335,15 @@
     "use": "Political education",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "Germany's statistics office corrected a processing error: women's extra unpaid care time is 44.3%, not 43.8% (79, not 77 minutes a day). The difference is small; the conclusion is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-03-28",
     "timing": "Still distributed",
     "entity": "Alliance 90/The Greens · Bundestag parliamentary group",
@@ -7618,6 +8437,15 @@
     "use": "Public education",
     "status": "Corrected",
     "severity": "minor",
+    "severityReason": "Germany's statistics office corrected a processing error: women's extra unpaid care time is 44.3%, not 43.8% (79, not 77 minutes a day). The difference is small; the conclusion is unchanged.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2024-03-28",
     "timing": "Still distributed",
     "entity": "Federal Association of Municipal Equality Offices · BAG",
@@ -7708,6 +8536,15 @@
     "topic": "Public health",
     "status": "Retracted & republished",
     "severity": "major",
+    "severityReason": "The corrected study finds the UK sugar levy cut sugar bought by 8 g (2.7%) per household a week, not 30 g (10%), and drink volumes rose 2.6%, not zero.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2023-12-05",
     "timing": "Still distributed",
     "change": "The BMJ retracted the paper after an incorrectly calculated, redundant weighting variable altered its policy-relevant results. The corrected study estimates 8 g (2.7%) less sugar purchased per household per week, rather than 30 g (about 10%), and 189 mL (2.6%) more soft drinks purchased, rather than no change.",
@@ -7782,6 +8619,15 @@
     "topic": "Public health",
     "status": "Retracted & republished",
     "severity": "major",
+    "severityReason": "The corrected study finds the UK sugar levy cut sugar bought by 8 g (2.7%) per household a week, not 30 g (10%), and drink volumes rose 2.6%, not zero.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2023-12-05",
     "timing": "Still distributed",
     "change": "The BMJ retracted the paper after an incorrectly calculated, redundant weighting variable altered its policy-relevant results. The corrected study estimates 8 g (2.7%) less sugar purchased per household per week, rather than 30 g (about 10%), and 189 mL (2.6%) more soft drinks purchased, rather than no change.",
@@ -7858,7 +8704,16 @@
     "topic": "Public finance",
     "use": "Policy opinion and parliamentary record",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The European Commission said its contractor made an error: the cost difference for commission-based products is 24–26%, not 35%. The gap is smaller, but commissions still cost more.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2023-02-08",
     "timing": "Still distributed",
     "entity": "European Commission · Financial Services User Group",
@@ -7938,7 +8793,16 @@
     "topic": "Public finance",
     "use": "Parliamentary question",
     "status": "Corrected",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "The questioners quote a 35% cost difference for commission-based advice. After a contractor's error was acknowledged, the corrected figure is 24–26%. It appears only as background in the preamble.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2023-02-08",
     "timing": "Still distributed",
     "entity": "CDU/CSU · Bundestag question 20/5487 and reply 20/5905",
@@ -8022,6 +8886,15 @@
     "title": "A conservation policy toolkit still recommends a signing technique backed by retracted research",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The toolkit's advice to sign at the start of an audit cites only the retracted paper, whose data validity was in doubt. No replacement evidence is given.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2021-09-13",
     "publicDate": "2019 report · currently offered for download",
     "publicDateShort": "2019",
@@ -8094,6 +8967,15 @@
     "publicDateShort": "3 Jun 2020",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The commentary's finding of no significant disparity comes from the retracted paper. The authors said its data could not support conclusions about racial disparities, and no replacement exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2020-07-10",
     "claim": "A commentary quotes a 2019 study as finding no significant anti-Black disparity in the likelihood of being fatally shot by police.",
     "change": "The authors retracted the paper and said its data could not support conclusions about racial disparities in the probability of being shot.",
@@ -8156,6 +9038,15 @@
     "title": "A German tree-planting appeal retains a climate ranking formally corrected in 2020",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The erratum says the claim that planting trees is the most effective climate measure was incorrect. The study meant carbon-removal potential, not priority over cutting emissions.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2020-05-29",
     "publicDate": "Undated fundraising page · currently active",
     "publicDateShort": "Undated",
@@ -8217,7 +9108,16 @@
     "title": "A climate article retains a strong policy inference after uncertainty quadrupled",
     "publicDateShort": "1 Nov 2018",
     "status": "Retracted",
-    "severity": "major",
+    "severity": "moderate",
+    "severityReason": "A re-analysis kept the ocean-heat estimate similar but made it about four times more uncertain, and the paper was retracted. The claim of a quarter-smaller emissions budget is weakened.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2019-09-25",
     "claim": "The article says a new ocean-heat estimate suggests the remaining emissions budget for the Paris targets needs to shrink by about a quarter.",
     "change": "Reanalysis increased uncertainty roughly fourfold and substantially weakened the paper’s inferences about higher ocean warming and climate sensitivity. The paper was retracted.",
@@ -8280,6 +9180,15 @@
     "publicDateShort": "Shows 7 May 2026",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The guide's claim of improved autism symptoms after four months of vitamin D rests on the withdrawn trial. Missing data and discrepancies undermined it, and no replacement exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2019-05-06",
     "claim": "The guide cites Saad et al. and describes improved autism symptoms after four months of supplementation, with no comparable improvement on placebo.",
     "change": "The journal withdrew the trial after missing raw data, discrepancies in reanalysis and recording irregularities undermined confidence in its findings.",
@@ -8350,6 +9259,15 @@
     "publicDateShort": "Undated",
     "status": "Retracted",
     "severity": "major",
+    "severityReason": "The sales page's claim of 17 pounds and 16% body fat lost rests on the retracted trial, whose sponsor data could not be assured. No replacement result exists.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": "2014-10-16",
     "claim": "The sales page says participants lost an average of 17 pounds and 16% body fat, and links the trial as support for its formulation.",
     "change": "The authors retracted the trial because they could not assure the validity of the sponsor’s data.",
@@ -8412,6 +9330,15 @@
     "title": "A policy digest still says more than half of children will be in Universal Credit households",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The corrected report lowers the share of children in Universal Credit households from 54% to 42%. Over half of children becomes under half.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "Correction date unclear",
     "publicDate": "29 January 2026",
@@ -8477,6 +9404,15 @@
     "title": "Benefits guidance retains an IFS claimant count corrected from 900,000 to 600,000",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The Institute for Fiscal Studies corrected the number affected from 900,000 to 600,000, a third fewer. The article also wrongly labels them as PIP (a disability benefit) claimants.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "Correction date not stated",
     "publicDate": "19 March 2025",
@@ -8536,6 +9472,15 @@
     "title": "A Universal Credit press release retains a majority claim beside the corrected percentage",
     "status": "Corrected",
     "severity": "major",
+    "severityReason": "The release says half of children, and its quote says more than half, are in Universal Credit families. The corrected figure is 42%, under half; only one paragraph is updated.",
+    "severityReviewed": {
+      "reviewers": [
+        "Reviewer A",
+        "Reviewer B"
+      ],
+      "outcome": "agreed",
+      "round": 1
+    },
     "changeDate": null,
     "changeDateLabel": "Correction date unclear",
     "publicDate": "29 January 2026",

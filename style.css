@@ -32,7 +32,7 @@ h1{font:500 40px/1.15 var(--serif);letter-spacing:-1.2px;margin-bottom:8px}
 .search-field{flex:1 1 auto;min-width:200px}
 .filter-selects{display:contents}
 .filter-selects>div{flex:0 0 168px}
-.filter-selects>.sev-filter{flex:0 0 140px}
+.filter-selects>.sev-filter{flex:0 0 184px}
 .filters-toggle{display:none}
 .filters-tail{margin-left:auto;display:flex;align-items:center;gap:14px;white-space:nowrap;padding-left:8px}
 #count{font-size:13px;font-weight:600;margin:0}
@@ -46,6 +46,7 @@ input::placeholder{color:var(--muted)}
 .sev{display:inline-block;margin-right:10px;font-size:12px;font-weight:600;letter-spacing:.9px;line-height:1.6;text-transform:uppercase;color:var(--ink)}
 .sev::before{content:'';display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:50%;box-sizing:border-box}
 .sev.major::before{background:var(--ink)}
+.sev.moderate::before{border:1.5px solid var(--ink);background:linear-gradient(90deg,var(--ink) 50%,transparent 50%)}
 .sev.minor{color:var(--muted)}
 .sev.minor::before{border:1.5px solid var(--muted)}
 .dot{color:var(--muted);margin:0 3px}
@@ -136,8 +137,8 @@ input::placeholder{color:var(--muted)}
 .about-section h2{font:500 22px/1.3 var(--serif);margin:0}
 .about-section p{max-width:36em;margin:0 0 12px;font-size:15px;line-height:1.65}
 .about-section p:last-child{margin-bottom:0}
-.legend{display:grid;grid-template-columns:84px 1fr;gap:12px;align-items:baseline}
-.legend .sev{margin:0}
+.legend{display:grid;grid-template-columns:108px 1fr;gap:12px;align-items:baseline}
+.legend .sev{margin:0;white-space:nowrap}
 .about a{color:var(--green)}
 
 @media(min-width:1500px){.intro{padding-top:40px}.case-row{padding-top:32px;padding-bottom:30px}}
@@ -155,7 +156,7 @@ input::placeholder{color:var(--muted)}
   .js .filters-toggle::after{content:'';width:7px;height:7px;border:solid var(--ink);border-width:0 1.5px 1.5px 0;transform:translateY(-2px) rotate(45deg)}
   .js .filters.open .filters-toggle::after{transform:translateY(1px) rotate(-135deg)}
   .filters-badge{min-width:20px;height:20px;padding:0 5px;border-radius:10px;background:var(--green);color:#fff;font-size:12px;font-weight:600;line-height:20px;text-align:center}
-  .js .filter-selects{grid-column:1/-1;display:none;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+  .js .filter-selects{grid-column:1/-1;display:none;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,1.1fr);gap:12px}
   .js .filters.open .filter-selects{display:grid}
   .js .filters-tail{grid-column:1/-1}
 }
@@ -187,6 +188,7 @@ input::placeholder{color:var(--muted)}
   .legend{display:block}
   .legend .sev{display:inline-block;margin-bottom:6px}
   .js .filter-selects{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .filter-selects select{padding-left:10px;padding-right:8px}
 }
 @media(max-width:560px){
   .case-row{grid-template-columns:1fr}

@@ -33,12 +33,12 @@
   function update(){
     const words=search.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
     const narrowing=words.length>0||topic.value||status.value;
-    const limitedRegion=region.value==='focus',limitedSeverity=severity.value==='major';
+    const limitedRegion=region.value==='focus',limitedSeverity=severity.value!=='all';
     let visible=0,hidden=0;
     for(const row of rows){
       const fits=words.every(w=>row.dataset.search.includes(w))&&(!topic.value||row.dataset.topic===topic.value)&&(!status.value||row.dataset.status===status.value);
       const inRegion=region.value==='all'||(limitedRegion?focus.includes(row.dataset.region):row.dataset.region===region.value);
-      const inSeverity=severity.value==='all'||row.dataset.severity===severity.value;
+      const inSeverity=severity.value==='all'||(severity.value==='major'?row.dataset.severity==='major':row.dataset.severity!=='minor');
       row.hidden=!(fits&&inRegion&&inSeverity);
       if(!row.hidden)visible++;
       else if(fits&&narrowing&&(inRegion||limitedRegion)&&(inSeverity||limitedSeverity))hidden++;
@@ -50,12 +50,13 @@
     badge.hidden=!active;
     for(const select of [region,topic,status,severity])select.classList.toggle('active',isActive(select));
     reset.hidden=!(active||search.value.trim());
-    const reasons=[limitedSeverity&&'minor cases',limitedRegion&&'other countries'].filter(Boolean).join(' or ');
+    const reasons=[limitedSeverity&&(severity.value==='major'?'lower-severity cases':'minor cases'),limitedRegion&&'other countries'].filter(Boolean).join(' or ');
     noteText.textContent=`${hidden} more ${hidden===1?'match':'matches'} in ${reasons}.`;
     note.hidden=!hidden||visible===0;
     showOthers.textContent=`Show ${matchWord(hidden)}`;
     showOthers.hidden=!hidden;
-    emptyHead.textContent=hidden?`No ${limitedSeverity?'major ':''}matches${limitedRegion?` in ${countries}`:''}`:'No matching cases';
+    const severityWords={major:'major ',moderate:'major or moderate ',all:''}[severity.value];
+    emptyHead.textContent=hidden?`No ${severityWords}matches${limitedRegion?` in ${countries}`:''}`:'No matching cases';
     emptyText.textContent=hidden?`${matchWord(hidden)} in ${reasons}.`:'Try another term or reset the filters.';
     empty.hidden=visible!==0;
     const p=new URLSearchParams();
@@ -70,7 +71,7 @@
   form.addEventListener('input',update);
   form.addEventListener('reset',()=>requestAnimationFrame(update));
   document.getElementById('clear-empty').addEventListener('click',()=>{form.reset();search.focus();});
-  const showAll=()=>{if(region.value==='focus')region.value='all';if(severity.value==='major')severity.value='all';update();};
+  const showAll=()=>{if(region.value==='focus')region.value='all';severity.value='all';update();};
   showOthers.addEventListener('click',showAll);
   note.querySelector('button').addEventListener('click',showAll);
   update();
