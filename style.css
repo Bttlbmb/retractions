@@ -28,11 +28,13 @@ nav a:hover{text-decoration:underline}
 .intro{padding:32px 0 24px}
 h1{font:500 40px/1.15 var(--serif);letter-spacing:-1.2px;margin-bottom:8px}
 .dek{max-width:750px;color:var(--muted);font-size:17px;line-height:1.5;margin-bottom:0}
-.filters{display:flex;gap:12px;align-items:center;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--ink)}
+.filters{display:flex;gap:12px;align-items:flex-end;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--ink)}
 .search-field{flex:1 1 auto;min-width:200px}
 .filter-selects{display:contents}
-.filter-selects>div{flex:0 0 168px}
-.filter-selects>.sev-filter{flex:0 0 184px}
+.filter-selects>div{flex:0 0 160px}
+.filter-selects>.sev-filter{flex:0 0 208px}
+.fl{display:block;margin:0 0 4px;font:600 11px/1.4 var(--sans);text-transform:uppercase;letter-spacing:.9px;color:var(--muted)}
+.sub-label{margin:20px 0 4px;font:600 11px/1.4 var(--sans);text-transform:uppercase;letter-spacing:.9px;color:var(--muted)}
 .filters-toggle{display:none}
 .filters-tail{margin-left:auto;display:flex;align-items:center;gap:14px;white-space:nowrap;padding-left:8px}
 #count{font-size:13px;font-weight:600;margin:0}
@@ -143,23 +145,27 @@ input::placeholder{color:var(--muted)}
 
 @media(min-width:1500px){.intro{padding-top:40px}.case-row{padding-top:32px;padding-bottom:30px}}
 @media(max-width:950px){.detail-intro h1{font-size:34px}.detail-section,.about-section{grid-template-columns:190px 1fr;gap:30px}.sources li{grid-template-columns:95px 1fr;gap:15px}}
-@media(max-width:899px){
+@media(max-width:1199px){
   .filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
   .search-field{grid-column:1/-1}
   .filters>div:not(.search-field):not(.filters-tail){flex:none}
   .filters-tail{grid-column:1/-1;margin:0;padding:0}
-  .case-row{grid-template-columns:1fr 1fr;gap:16px 32px}
-  .case-heading{grid-column:1/-1}
   .js .filters{grid-template-columns:minmax(0,1fr) auto}
   .js .search-field{grid-column:1;min-width:0}
   .js .filters-toggle{grid-column:2;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;background:#fff;border:1px solid #85908a;border-radius:2px;font-size:15px}
   .js .filters-toggle::after{content:'';width:7px;height:7px;border:solid var(--ink);border-width:0 1.5px 1.5px 0;transform:translateY(-2px) rotate(45deg)}
   .js .filters.open .filters-toggle::after{transform:translateY(1px) rotate(-135deg)}
   .filters-badge{min-width:20px;height:20px;padding:0 5px;border-radius:10px;background:var(--green);color:#fff;font-size:12px;font-weight:600;line-height:20px;text-align:center}
-  .js .filter-selects{grid-column:1/-1;display:none;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,1.1fr);gap:12px}
+  .js .filter-selects{grid-column:1/-1;display:none;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,1.3fr);gap:12px}
   .js .filters.open .filter-selects{display:grid}
   .js .filters-tail{grid-column:1/-1}
 }
+@media(max-width:899px){
+  .case-row{grid-template-columns:1fr 1fr;gap:16px 32px}
+  .case-heading{grid-column:1/-1}
+  .js .filter-selects{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:455px){.js .filter-selects>.sev-filter,.js .filter-selects>.status-filter{grid-column:1/-1}}
 @media(min-width:701px) and (max-width:950px){.evidence-comparison blockquote,.evidence-comparison .change-lead{font-size:19px;line-height:1.4}}
 @media(max-width:700px){
   .site-footer{padding:0 20px 16px}

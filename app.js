@@ -30,20 +30,24 @@
   const emptyHead=empty.querySelector('h2');
   const emptyText=empty.querySelector('p');
   const matchWord=n=>`${n} ${n===1?'match':'matches'}`;
+  const severityNames={major:'Major',moderate:'Major + moderate',all:'All severities'};
   function update(){
     const words=search.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
     const narrowing=words.length>0||topic.value||status.value;
     const limitedRegion=region.value==='focus',limitedSeverity=severity.value!=='all';
     let visible=0,hidden=0;
+    const tally={major:0,moderate:0,all:0};
     for(const row of rows){
       const fits=words.every(w=>row.dataset.search.includes(w))&&(!topic.value||row.dataset.topic===topic.value)&&(!status.value||row.dataset.status===status.value);
       const inRegion=region.value==='all'||(limitedRegion?focus.includes(row.dataset.region):row.dataset.region===region.value);
       const inSeverity=severity.value==='all'||(severity.value==='major'?row.dataset.severity==='major':row.dataset.severity!=='minor');
+      if(fits&&inRegion){tally.all++;if(row.dataset.severity!=='minor')tally.moderate++;if(row.dataset.severity==='major')tally.major++;}
       row.hidden=!(fits&&inRegion&&inSeverity);
       if(!row.hidden)visible++;
       else if(fits&&narrowing&&(inRegion||limitedRegion)&&(inSeverity||limitedSeverity))hidden++;
     }
     count.textContent=`${visible} of ${rows.length} cases`;
+    for(const o of severity.options)o.textContent=`${severityNames[o.value]} (${tally[o.value]})`;
     const isActive=select=>select===region?select.value!=='focus':select===severity?select.value!=='major':select.value!=='';
     const active=[region,topic,status,severity].filter(isActive).length;
     badge.textContent=active;
