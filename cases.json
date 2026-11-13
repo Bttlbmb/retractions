@@ -1712,6 +1712,81 @@
     "priority": 5
   },
   {
+    "id": "us-trafficking-prosecutions-ojp",
+    "studyId": "bjs-human-trafficking-data-2025",
+    "region": "International",
+    "topic": "Public policy",
+    "use": "Government research summary",
+    "entity": "US Department of Justice · Office of Justice Programs",
+    "title": "A Justice Department summary retains an inflated human-trafficking prosecution increase",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": "2026-07-23",
+    "publicDate": "January 2026 · OJP catalogue labels 1 January; BJS release was 26 January",
+    "publicDateShort": "Jan 2026",
+    "timing": "Still distributed",
+    "claim": "The OJP public summary says federal human-trafficking prosecutions rose 73% between 2013 and 2023, from 1,030 to 1,782 persons.",
+    "change": "BJS corrected a coding error on 23 July 2026: prosecution-file records with missing human-trafficking flags had been wrongly included. The revised report gives 1,213 prosecutions for 2023 and an 18% increase from 2013, rather than 1,782 and 73%.",
+    "importance": "The statutory report informs public understanding of the criminal-justice response to human trafficking. The retained summary makes the decade increase about four times the corrected percentage and overstates the 2023 count by 569 people, about 47%.",
+    "quote": "increased by 73% from 2013 to 2023 (from 1,030 to 1,782).",
+    "quoteSource": "summary",
+    "sourceSection": "Highlights · second bullet",
+    "scope": "This is a federal prosecution count under BJS’s specified offense and lead-charge definitions, not trafficking prevalence or an estimate of all traffickers. The revised count still rises over the decade. BJS’s own 2025 publication page now displays 18%; the stale wording remains on the separate OJP summary. The notice also covers the 2022–2024 editions. No claim of resulting legislative decisions or deliberate concealment is established.",
+    "chain": "The OJP summary identifies Human Trafficking Data Collection Activities, 2025, NCJ 310661, and its Full Report link opens the BJS PDF with that same title and number. Page 3 and appendix table 1 contain the corrected series, and the BJS correction log names this exact edition and coding error.",
+    "study": {
+      "title": "Human Trafficking Data Collection Activities, 2025",
+      "authors": "Amy D. Lauger · Bureau of Justice Statistics",
+      "journal": "US Department of Justice · Bureau of Justice Statistics",
+      "year": 2026,
+      "url": "https://bjs.ojp.gov/library/publications/human-trafficking-data-collection-activities-2025"
+    },
+    "sources": [
+      {
+        "id": "summary",
+        "role": "Still in use",
+        "label": "Office of Justice Programs · public report summary",
+        "url": "https://www.ojp.gov/library/publications/human-trafficking-data-collection-activities-2025",
+        "dateLabel": "January 2026 · checked 13 November 2026",
+        "note": "Highlights retain 73% and 1,782 while the Full Report link supplies the corrected BJS publication."
+      },
+      {
+        "id": "notice",
+        "role": "Correction",
+        "label": "BJS · Errata and Corrections",
+        "url": "https://bjs.ojp.gov/library/publications/data-corrections",
+        "dateLabel": "23 July 2026",
+        "note": "Names the 2025 edition and explains the incorrect inclusion of records missing the human-trafficking flag."
+      },
+      {
+        "id": "report",
+        "role": "Corrected report",
+        "label": "BJS · revised Human Trafficking Data Collection Activities, 2025",
+        "url": "https://bjs.ojp.gov/document/htdca25.pdf#page=3",
+        "dateLabel": "January 2026 · revised 23 July 2026 · page 3 and appendix table 1",
+        "note": "Gives 1,030 in 2013, 1,213 in 2023 and 18% growth; explains federal offense and lead-charge scope."
+      },
+      {
+        "id": "bjs-summary",
+        "role": "Corrected publisher summary",
+        "label": "BJS · current publication page",
+        "url": "https://bjs.ojp.gov/library/publications/human-trafficking-data-collection-activities-2025",
+        "dateLabel": "26 January 2026 release · corrected summary checked 13 November 2026",
+        "note": "Shows 18% and 1,213 with an annotation linking the corrections log."
+      }
+    ],
+    "occurrences": [],
+    "checked": "2026-11-13",
+    "liveMethod": "Fresh full official OJP summary, clicked exact Full Report link, full BJS correction notice, revised PDF and corrected BJS summary; textual review of page 3 and appendix table 1.",
+    "finder": "verify_policy",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 3
+  },
+  {
     "id": "avacopan-patient-guideline",
     "studyId": "10.1056/NEJMoa2023386",
     "region": "Germany",
@@ -2942,6 +3017,88 @@
     "priority": 3
   },
   {
+    "id": "chd-german-vaccines-sids",
+    "studyId": "10.1016/j.toxrep.2021.06.020",
+    "region": "International",
+    "quoteLang": "de",
+    "topic": "Public health",
+    "use": "Vaccine advocacy",
+    "entity": "Children’s Health Defense · German-language Defender article",
+    "title": "A vaccine advocacy article retains the SIDS inference rejected when its source was removed",
+    "status": "Withdrawn",
+    "severity": "major",
+    "changeDate": "2026-04-09",
+    "publicDate": "3 August 2021 · German-language article remains publicly available",
+    "publicDateShort": "3 Aug 2021",
+    "timing": "Still distributed",
+    "claim": "The German-language article reports that 58% of 2,605 infant deaths reported to VAERS occurred within three days after vaccination and 78% within seven days. It presents this clustering, including a subset of SIDS reports, as evidence of a vaccine–infant-death connection and says a uniform distribution would be expected if there were no connection.",
+    "change": "Toxicology Reports removed the exact study on 9 April 2026. Its formal notice identifies serious methodological flaws in using VAERS data to infer a vaccination–SIDS correlation: temporal clustering is expected in passive reports independently of causality, so the conclusions were not supported by the methods.",
+    "importance": "The article uses the study in public vaccine-safety advocacy. The same paper’s removal became a political oversight issue in 2026: a US Senate investigation chair requested the journal’s records and cited a separate inquiry by the US health secretary.",
+    "quote": "die zeitliche Häufung von SIDS-Todesfällen in Verbindung mit Impfungen",
+    "quoteSource": "advocacy",
+    "sourceSection": "Paragraphs on temporal clustering, uniform distribution and the author’s main findings",
+    "scope": "The publisher’s exact action is REMOVED; this catalogue groups it under Withdrawn. The author disputes the removal. The notice rejects the correlation inference; it does not supply replacement values for the reported 58% and 78%. Those percentages describe selected VAERS infant-death reports, not all vaccinated infants or their probability of death. The 2,605 reports concern all infant deaths; the SIDS subset contains 1,048 reports. The dated advocacy article predates the removal and has no removal update in its retrieved text. Neither political inquiry establishes the study’s validity or a resulting policy change.",
+    "chain": "The article names Neil Z. Miller, Toxicology Reports and the 1990–2019 VAERS analysis. Its opening study hyperlink leads to ScienceDirect identifier S2214750021001268, the original paper linked to DOI 10.1016/j.toxrep.2021.06.020 in PubMed. The formal removal notice names that exact title and publication and addresses the inference retained in the article.",
+    "study": {
+      "title": "Vaccines and sudden infant death: An analysis of the VAERS database 1990–2019 and review of the medical literature",
+      "authors": "Neil Z. Miller",
+      "journal": "Toxicology Reports",
+      "year": 2021
+    },
+    "sources": [
+      {
+        "id": "advocacy",
+        "role": "Still in use",
+        "label": "Children’s Health Defense · German-language VAERS and infant-death article",
+        "url": "https://childrenshealthdefense.org/defender/eine-untersuchung-zeigt-58-der-vaers-gemeldeten-todesfaelle-bei-saeuglingen-ereigneten-sich-innerhalb-von-3-tagen-nach-einer-impfung/?lang=de",
+        "dateLabel": "3 August 2021 · date displayed 03-08-2021",
+        "note": "Retains the selected-report percentages, uniform-distribution argument and vaccine–SIDS inference. The opening hyperlink identifies the exact study."
+      },
+      {
+        "id": "notice",
+        "role": "Removal / withdrawal",
+        "label": "Toxicology Reports · formal removal notice",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13305467/",
+        "dateLabel": "9 April 2026 · DOI 10.1016/j.toxrep.2026.102250",
+        "note": "Primary notice identifies serious flaws in inferring correlation from VAERS temporal clustering; the author disagrees."
+      },
+      {
+        "id": "study",
+        "role": "Original study record",
+        "label": "PubMed · exact original study and linked removal",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34258234/",
+        "dateLabel": "24 June 2021 online · volume 8 pages 1324–1335",
+        "note": "Identifies the original DOI and author, links the April 2026 removal, and states the article was withdrawn from public view."
+      },
+      {
+        "id": "cited-paper",
+        "role": "Exact cited publication",
+        "label": "ScienceDirect · original article linked by CHD",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2214750021001268",
+        "dateLabel": "2021 original · subsequently removed",
+        "note": "The exact target of CHD’s opening study hyperlink. Direct retrieval returned 403; article identity is corroborated through the primary PubMed record and formal notice."
+      },
+      {
+        "id": "political-context",
+        "role": "Political context",
+        "label": "US Senator Ron Johnson · inquiry about removal of Miller’s study",
+        "url": "https://www.ronjohnson.senate.gov/2026/06/30/chairman-johnson-requests-information-from-medical-journal-on-removal-of-article-on-sudden-infant-death-syndrome-and-vaccines/",
+        "dateLabel": "30 June 2026 · describes letter sent the previous day",
+        "note": "Names the exact study and confirms the senator’s document request and a separate 11 June 2026 letter by the US health secretary. This is context, not evidence validating the study."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Fresh complete advocacy HTML, full primary removal notice in PMC, original/removal linkage and exact opening study hyperlink; indexed full official Senate press release corroborates political context. No visual review claimed.",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 8,
+    "finder": "verify_health"
+  },
+  {
     "id": "uk-lisa-parliamentary-subsidy",
     "studyId": "HMRC · LISA holder quantitative research · 2025",
     "region": "United Kingdom",
@@ -4038,6 +4195,286 @@
     ],
     "priority": 7,
     "finder": "health_cases"
+  },
+  {
+    "studyId": "oeko-access-denied-transport-poverty-2026",
+    "topic": "Climate & environment",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": null,
+    "changeDateLabel": "Correction date unclear (2026)",
+    "timing": "Still distributed",
+    "change": "Greenpeace Germany formally corrected its press interpretation: the 56% figure concerns Cyprus, while the average across the countries studied is about 15%. The correction concerns Greenpeace’s summary of Access Denied, rather than a withdrawal or correction of the underlying Öko-Institut report.",
+    "scope": "The underlying report remains published. Its availability indicator includes absent public transport, low frequency or inconvenient schedules; it is not a literal count of people with no service anywhere nearby. The country average is population-weighted and this indicator uses 2024 EU-SILC data. Over 50% not using public transport regularly is a separate finding and was not withdrawn. The original press-release date is 19 May 2026, but the date when its correction was added is not established.",
+    "study": {
+      "title": "Access Denied: Transport Poverty in Europe",
+      "authors": "Nelly Unger, Viktoria Noka, Johanna Meyer, Johanna Cludius & Konstantin Kreye",
+      "journal": "Öko-Institut · report for Greenpeace CEE",
+      "year": 2026,
+      "url": "https://www.oeko.de/en/publications/access-denied-transport-poverty-in-europe/"
+    },
+    "checked": "2026-11-13",
+    "finder": "verify_policy",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": [],
+    "liveMethod": "Fresh full citing pages and Greenpeace correction; identical report targets checked against the Öko-Institut publisher PDF extracted text, including country-specific Cyprus maximum and indicator definition. No visual review was possible.",
+    "id": "swiss-greenpeace-transport-poverty",
+    "region": "Switzerland",
+    "use": "Policy advocacy",
+    "entity": "Greenpeace Switzerland",
+    "title": "A Swiss transport-policy appeal retains the Europe-wide access claim Greenpeace corrected",
+    "publicDate": "19 May 2026",
+    "publicDateShort": "19 May 2026",
+    "claim": "Greenpeace Switzerland says over 50% of people in Europe have no access to public transport and presents the finding alongside support for the Mobilitätsbon popular initiative.",
+    "importance": "The unsupported continental-majority claim accompanies a concrete Swiss campaign for flight-ticket and private-jet levies to fund transport benefits. The corrected international average is about 15%, while 56% is Cyprus’s national maximum.",
+    "quote": "Über 50 Prozent der Menschen in Europa haben keinen Zugang zu öffentlichen Verkehrsmitteln.",
+    "quoteSource": "appeal",
+    "sourceSection": "Opening paragraph and following explanation",
+    "chain": "The Swiss release directly links Access Denied: Transport Poverty in Europe at greenpeace.at, the same report linked by Greenpeace Germany’s corrected release. It calls the Europe-wide over 50% claim a central study finding. The German correction explicitly corrects that geographic extrapolation; figure 5-3 supports the country-specific interpretation.",
+    "sources": [
+      {
+        "id": "appeal",
+        "role": "Still in use",
+        "label": "Greenpeace Switzerland · transport study and Mobilitätsbon initiative appeal",
+        "url": "https://www.greenpeace.ch/de/medienmitteilung/132495/neue-studie-viel-bedarf-fur-mehr-ov-in-europa-schweizer-billettpreise-schrecken-ab/",
+        "dateLabel": "19 May 2026",
+        "note": "Opening paragraphs retain the over 50% Europe-wide no-access claim; later paragraphs promote the Swiss popular initiative and proposed flight charges."
+      },
+      {
+        "id": "notice",
+        "role": "Correction of press interpretation",
+        "label": "Greenpeace Germany · explicit correction to Access Denied release",
+        "url": "https://presseportal.greenpeace.de/265756-korrektur-greenpeace-studie-halfte-der-europaer-innen-von-offentlichem-nahverkehr-abgeschnitten/",
+        "dateLabel": "Original release 19 May 2026 · correction insertion date unclear",
+        "note": "Explains that the original Europe-wide half-of-population assertion was wrong: 56% is Cyprus, average about 15%."
+      },
+      {
+        "id": "report",
+        "role": "Underlying report",
+        "label": "Öko-Institut · Access Denied: Transport Poverty in Europe",
+        "url": "https://www.oeko.de/fileadmin/oekodoc/Transport_poverty_in_Europe.pdf#page=49",
+        "dateLabel": "19 May 2026 · pages 23 and 49; figure 5-3",
+        "note": "Availability indicator combines no local service, low frequency and inconvenient schedules. The report identifies Cyprus as the 56% maximum. Greenpeace’s correction provides the approximately 15% average."
+      }
+    ]
+  },
+  {
+    "studyId": "jrf-protected-minimum-floor-2025",
+    "region": "United Kingdom",
+    "topic": "Social policy",
+    "use": "Policy advocacy",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": null,
+    "changeDateLabel": "2026 · exact correction date unclear",
+    "timing": "Still distributed",
+    "change": "JRF disclosed a coding error in its original October 2025 briefing. For the same 2025/26 scenario, the projected number lifted out of poverty should have been 30,000 people, including 10,000 children, rather than 130,000 and 80,000.",
+    "importance": "The child-poverty impact used to advocate a benefits reform is eight times the corrected estimate; the total-person estimate is about 4.3 times the corrected value. JRF says its policy narrative and conclusions would not change, but the magnitude of the claimed immediate benefit changes substantially.",
+    "scope": "This compares the original and corrected coding for the same 2025/26 policy scenario. It must not be confused with JRF’s new 2027/28 estimates after the two-child limit was abolished, or its separate estimates of very deep poverty. The briefing defines poverty as income after housing costs below 60% of the median and very deep poverty as below 40%. JRF warns of relatively low sample sizes and says it is updating later modelling. The correction page has an 11 September 2026 publication date and a further update after 22 September, but no separate timestamp for the coding correction; its exact date remains unclear.",
+    "study": {
+      "title": "A protected minimum floor in Universal Credit: a new policy targeting hardship",
+      "authors": "I. Porter, S. Tims and N. Hamdan · Joseph Rowntree Foundation",
+      "journal": "Joseph Rowntree Foundation briefing",
+      "year": 2025,
+      "url": "https://www.jrf.org.uk/social-security/protected-minimum-floor-in-universal-credit-new-policy-targeting-hardship"
+    },
+    "sources": [
+      {
+        "id": "article",
+        "role": "Still in use",
+        "label": "Big Issue · 15 years on, it’s time we made Universal Credit the game changer it can be",
+        "url": "https://www.bigissue.com/opinion/universal-credit-15-year-anniversary-jrf/",
+        "dateLabel": "13 November 2025",
+        "note": "By Iain Porter, JRF senior policy adviser; retains 130,000 and 80,000 alongside a Budget policy recommendation. No visible correction notice."
+      },
+      {
+        "id": "correction",
+        "role": "Correction",
+        "label": "JRF · replacement briefing and Note 6",
+        "url": "https://www.jrf.org.uk/social-security/a-protected-minimum-floor-in-universal-credit-to-cut-deep-child-poverty",
+        "dateLabel": "Replacement page dated 11 September 2026 · coding correction not separately timestamped",
+        "note": "Introduction discloses the coding error; Note 6 directly compares 130,000/80,000 with 30,000/10,000 for the original 2025/26 scenario."
+      },
+      {
+        "id": "original-route",
+        "role": "Original briefing route",
+        "label": "JRF · original October 2025 briefing URL",
+        "url": "https://www.jrf.org.uk/social-security/protected-minimum-floor-in-universal-credit-new-policy-targeting-hardship",
+        "dateLabel": "Original briefing 9 October 2025 · now redirects to replacement",
+        "note": "Exact URL shared by JRF’s public social-media post resolves to the corrected replacement briefing."
+      },
+      {
+        "id": "distribution",
+        "role": "Independent source connection",
+        "label": "JRF · public campaign for the same original briefing",
+        "url": "https://www.linkedin.com/posts/joseph-rowntree-foundation_deductions-and-caps-in-universal-credit-activity-7383497495156252672-YFmv",
+        "dateLabel": "2025/26 campaign · exact post date unavailable",
+        "note": "Same policy, counts and explicit 2025/26 scenario; JRF comment links exact original report URL."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Independent live full text of JRF replacement including Notes 4–6, original-URL redirect, Big Issue full article, JRF LinkedIn full post and its exact original-briefing hyperlink. No reliance on inconsistent relative social-media dates.",
+    "finder": "verify_methods",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": [],
+    "id": "uk-jrf-minimum-floor-big-issue",
+    "entity": "Big Issue · Iain Porter (JRF senior policy adviser)",
+    "title": "A benefits-reform opinion article retains JRF’s corrected child-poverty impact estimate",
+    "publicDate": "13 November 2025 · currently available article",
+    "publicDateShort": "13 Nov 2025",
+    "claim": "A Big Issue opinion article by JRF’s Iain Porter recommends a protected minimum floor in Universal Credit at the coming Budget, saying it would lift 130,000 people, including 80,000 children, out of poverty immediately.",
+    "quote": "lift 130,000 people (including 80,000 children) out of poverty immediately.",
+    "quoteSource": "article",
+    "sourceSection": "First proposed system change · protected minimum floor paragraph",
+    "chain": "The article is authored by Iain Porter, one of the JRF briefing authors, and repeats its original 130,000/80,000 pair for the protected-minimum-floor policy. Its Mimecast-wrapped policy hyperlink was followed to JRF’s corrected replacement briefing. Note 6 explicitly identifies and corrects the original pair for 2025/26. The article predates the correction."
+  },
+  {
+    "studyId": "jrf-protected-minimum-floor-2025",
+    "region": "United Kingdom",
+    "topic": "Social policy",
+    "use": "Policy advocacy",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": null,
+    "changeDateLabel": "2026 · exact correction date unclear",
+    "timing": "Still distributed",
+    "change": "JRF disclosed a coding error in its original October 2025 briefing. For the same 2025/26 scenario, the projected number lifted out of poverty should have been 30,000 people, including 10,000 children, rather than 130,000 and 80,000.",
+    "importance": "The child-poverty impact used to advocate a benefits reform is eight times the corrected estimate; the total-person estimate is about 4.3 times the corrected value. JRF says its policy narrative and conclusions would not change, but the magnitude of the claimed immediate benefit changes substantially.",
+    "scope": "This compares the original and corrected coding for the same 2025/26 policy scenario. It must not be confused with JRF’s new 2027/28 estimates after the two-child limit was abolished, or its separate estimates of very deep poverty. The briefing defines poverty as income after housing costs below 60% of the median and very deep poverty as below 40%. JRF warns of relatively low sample sizes and says it is updating later modelling. The correction page has an 11 September 2026 publication date and a further update after 22 September, but no separate timestamp for the coding correction; its exact date remains unclear.",
+    "study": {
+      "title": "A protected minimum floor in Universal Credit: a new policy targeting hardship",
+      "authors": "I. Porter, S. Tims and N. Hamdan · Joseph Rowntree Foundation",
+      "journal": "Joseph Rowntree Foundation briefing",
+      "year": 2025,
+      "url": "https://www.jrf.org.uk/social-security/protected-minimum-floor-in-universal-credit-new-policy-targeting-hardship"
+    },
+    "sources": [
+      {
+        "id": "post",
+        "role": "Still in use",
+        "label": "JRF · public Protected Minimum Floor campaign post",
+        "url": "https://www.linkedin.com/posts/joseph-rowntree-foundation_deductions-and-caps-in-universal-credit-activity-7383497495156252672-YFmv",
+        "dateLabel": "2025/26 campaign · exact post date unavailable",
+        "note": "Retains 130,000 people and 80,000 children, explicitly identifies 2025/26, urges government action, and links the original briefing in a JRF comment."
+      },
+      {
+        "id": "correction",
+        "role": "Correction",
+        "label": "JRF · replacement briefing and Note 6",
+        "url": "https://www.jrf.org.uk/social-security/a-protected-minimum-floor-in-universal-credit-to-cut-deep-child-poverty",
+        "dateLabel": "Replacement page dated 11 September 2026 · coding correction not separately timestamped",
+        "note": "Introduction discloses the coding error; Note 6 directly compares 130,000/80,000 with 30,000/10,000 for the original 2025/26 scenario."
+      },
+      {
+        "id": "original-route",
+        "role": "Original briefing route",
+        "label": "JRF · original October 2025 briefing URL",
+        "url": "https://www.jrf.org.uk/social-security/protected-minimum-floor-in-universal-credit-new-policy-targeting-hardship",
+        "dateLabel": "Original briefing 9 October 2025 · now redirects to replacement",
+        "note": "Exact URL shared by JRF’s public social-media post resolves to the corrected replacement briefing."
+      }
+    ],
+    "checked": "2026-11-13",
+    "liveMethod": "Independent live full text of JRF replacement including Notes 4–6, original-URL redirect, Big Issue full article, JRF LinkedIn full post and its exact original-briefing hyperlink. No reliance on inconsistent relative social-media dates.",
+    "finder": "verify_methods",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": [],
+    "id": "uk-jrf-minimum-floor-linkedin",
+    "entity": "Joseph Rowntree Foundation · public LinkedIn campaign",
+    "title": "JRF’s public benefits-reform campaign retains an eightfold child-poverty impact estimate",
+    "publicDate": "2025/26 campaign · exact post date unavailable",
+    "publicDateShort": "2025/26",
+    "claim": "JRF’s public campaign says a protected minimum floor in Universal Credit would lift 130,000 people, including 80,000 children, out of poverty in 2025/26, and urges the government to introduce it.",
+    "quote": "a minimum floor would lift 130,000 additional people out of poverty in 2025/26, including 80,000 children.",
+    "quoteSource": "post",
+    "sourceSection": "Main post · Applied to all recipients paragraph",
+    "chain": "JRF’s own post gives the same 2025/26 scenario and counts named in Note 6 of the correction. Its Read in full comment links the exact original briefing URL, which now redirects to the replacement containing that correction."
+  },
+  {
+    "studyId": "oeko-access-denied-transport-poverty-2026",
+    "topic": "Climate & environment",
+    "status": "Corrected",
+    "severity": "major",
+    "changeDate": null,
+    "changeDateLabel": "Correction date unclear (2026)",
+    "timing": "Still distributed",
+    "change": "Greenpeace Germany formally corrected its press interpretation: the 56% figure concerns Cyprus, while the average across the countries studied is about 15%. The correction concerns Greenpeace’s summary of Access Denied, rather than a withdrawal or correction of the underlying Öko-Institut report.",
+    "scope": "The underlying report remains published. Its availability indicator includes absent public transport, low frequency or inconvenient schedules; it is not a literal count of people with no service anywhere nearby. The country average is population-weighted and this indicator uses 2024 EU-SILC data. Over 50% not using public transport regularly is a separate finding and was not withdrawn. The original press-release date is 19 May 2026, but the date when its correction was added is not established.",
+    "study": {
+      "title": "Access Denied: Transport Poverty in Europe",
+      "authors": "Nelly Unger, Viktoria Noka, Johanna Meyer, Johanna Cludius & Konstantin Kreye",
+      "journal": "Öko-Institut · report for Greenpeace CEE",
+      "year": 2026,
+      "url": "https://www.oeko.de/en/publications/access-denied-transport-poverty-in-europe/"
+    },
+    "checked": "2026-11-13",
+    "finder": "verify_policy",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 2,
+    "occurrences": [],
+    "liveMethod": "Fresh full citing pages and Greenpeace correction; identical report targets checked against the Öko-Institut publisher PDF extracted text, including country-specific Cyprus maximum and indicator definition. No visual review was possible.",
+    "id": "germany-dlf-transport-poverty",
+    "region": "Germany",
+    "use": "Public-service news",
+    "entity": "Deutschlandfunk",
+    "title": "Deutschlandfunk retains a Europe-wide transport-access claim corrected by Greenpeace",
+    "publicDate": "20 May 2026 webpage · broadcast 19 May 2026",
+    "publicDateShort": "20 May 2026",
+    "claim": "Deutschlandfunk says more than half of Europe’s population is cut off from public transport, attributing this to the Greenpeace-commissioned study, and reports calls for a cheaper Deutschlandticket and network expansion.",
+    "importance": "A country maximum is presented as a continental majority, turning the corrected approximate 15% average into over 50%. The news uses that scale in reporting proposals for public-transport subsidies and expansion.",
+    "quote": "In Europa ist laut einer Untersuchung im Auftrag von Greenpeace gut die Hälfte der Bevölkerung vom Öffentlichen Nahverkehr abgeschnitten.",
+    "quoteSource": "article",
+    "sourceSection": "Headline and lead",
+    "chain": "The short article identifies Greenpeace’s Zugang verweigert study by the Öko-Institut and repeats its 19%, 48%, 11% contextual figures. Greenpeace Germany’s explicit correction names the same report and the precise Europe-wide half-population assertion. The study’s English title is Access Denied. This establishes the study connection without an outgoing study link on DLF.",
+    "sources": [
+      {
+        "id": "article",
+        "role": "Still in use",
+        "label": "Deutschlandfunk · Greenpeace transport study news",
+        "url": "https://www.deutschlandfunk.de/greenpeace-untersuchung-gut-die-haelfte-der-bevoelkerung-in-europa-ist-vom-oepnv-abgeschnitten-100.html",
+        "dateLabel": "20 May 2026 · broadcast 19 May 2026",
+        "note": "Headline and lead still assert over half of Europe is cut off; article connects findings to cheaper tickets and network expansion."
+      },
+      {
+        "id": "notice",
+        "role": "Correction of press interpretation",
+        "label": "Greenpeace Germany · explicit correction to Access Denied release",
+        "url": "https://presseportal.greenpeace.de/265756-korrektur-greenpeace-studie-halfte-der-europaer-innen-von-offentlichem-nahverkehr-abgeschnitten/",
+        "dateLabel": "Original release 19 May 2026 · correction insertion date unclear",
+        "note": "Explains that the original Europe-wide half-of-population assertion was wrong: 56% is Cyprus, average about 15%."
+      },
+      {
+        "id": "report",
+        "role": "Underlying report",
+        "label": "Öko-Institut · Access Denied: Transport Poverty in Europe",
+        "url": "https://www.oeko.de/fileadmin/oekodoc/Transport_poverty_in_Europe.pdf#page=49",
+        "dateLabel": "19 May 2026 · pages 23 and 49; figure 5-3",
+        "note": "Availability indicator combines no local service, low frequency and inconvenient schedules. The report identifies Cyprus as the 56% maximum. Greenpeace’s correction provides the approximately 15% average."
+      }
+    ]
   },
   {
     "id": "german-finance-climate-costs",
@@ -6604,6 +7041,154 @@
     "liveMethod": "Actual complete BAG facts page, ministry attribution, exact Destatis correction and later census revision",
     "priority": 1,
     "quoteLang": "de"
+  },
+  {
+    "studyId": "10.1136/bmj.n254",
+    "topic": "Public health",
+    "status": "Retracted & republished",
+    "severity": "major",
+    "changeDate": "2023-12-05",
+    "timing": "Still distributed",
+    "change": "The BMJ retracted the paper after an incorrectly calculated, redundant weighting variable altered its policy-relevant results. The corrected study estimates 8 g (2.7%) less sugar purchased per household per week, rather than 30 g (about 10%), and 189 mL (2.6%) more soft drinks purchased, rather than no change.",
+    "importance": "The retained reduction is about 3.7 times the corrected estimate. This changes the magnitude of evidence presented for a politically contested tax policy; it does not show that the levy had no benefit.",
+    "scope": "The analysis concerns drinks bought to take home and an estimated counterfactual based on preannouncement trends, not all sugar consumption or directly measured health effects. The corrected study still finds lower sugar purchases and no increase in confectionery or alcohol purchases. These public pages predate the retraction. The retraction is from 2023, so this is an older correction with continuing public availability.",
+    "study": {
+      "title": "Changes in soft drinks purchased by British households associated with the UK soft drinks industry levy: controlled interrupted time series analysis",
+      "authors": "Pell et al.",
+      "journal": "The BMJ",
+      "year": 2021
+    },
+    "checked": "2026-11-13",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 20,
+    "occurrences": [],
+    "liveMethod": "Fresh live full public page and exact original-study hyperlink; indexed full primary BMJ retraction and indexed corrected study abstract/conclusion independently compared with Cambridge author statement. Direct BMJ and PMC opens encounter access challenges.",
+    "id": "world-bank-sugar-tax-policy",
+    "region": "International",
+    "use": "Tax-policy factsheet",
+    "entity": "World Bank · Kazakhstan sugar-tax Q&A",
+    "title": "A World Bank tax-policy factsheet retains the original sugar-levy benefit estimate",
+    "publicDate": "23 November 2021 · current public factsheet",
+    "publicDateShort": "23 Nov 2021",
+    "claim": "The World Bank’s Q&A supporting consideration of a sugary-drink tax in Kazakhstan says the UK levy reduced sugar purchases by 30 g per household per week, or 10%, while the drink volume stayed unchanged.",
+    "quote": "the sugar content in these drinks was about 30g lower per household per week, a 10% decrease.",
+    "quoteSource": "factsheet",
+    "sourceSection": "Question 1 · Are taxes on sugary drinks really effective in lowering consumption of sugar?",
+    "chain": "The factsheet’s The research found hyperlink is DOI 10.1136/bmj.n254. It gives the same 31 million-purchase panel and affected 30 g/10% result, then draws a tax-policy lesson for Kazakhstan. The formal notice identifies that exact DOI and corrected replacement.",
+    "finder": "verify_policy",
+    "sources": [
+      {
+        "id": "factsheet",
+        "role": "Still in use",
+        "label": "World Bank · Taxing Sugary Drinks in Kazakhstan: Key Questions and Answers",
+        "url": "https://www.worldbank.org/en/news/factsheet/2021/11/23/taxing-sugary-drinks-in-kazakhstan-key-questions-and-answers",
+        "dateLabel": "23 November 2021",
+        "note": "Question 1 retains the old study result and links its exact DOI in a policy Q&A advocating consideration of beverage taxes."
+      },
+      {
+        "id": "notice",
+        "role": "Retraction",
+        "label": "The BMJ · formal retraction of Pell et al.",
+        "url": "https://www.bmj.com/content/383/bmj.p2705",
+        "dateLabel": "5 December 2023",
+        "note": "Explains that the data-preparation error changed main messages and policy implications, and identifies the replacement paper."
+      },
+      {
+        "id": "replacement",
+        "role": "Corrected replacement",
+        "label": "BMJ Open · corrected study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10711915/",
+        "dateLabel": "5 December 2023",
+        "note": "Reports -8 g/-2.7% sugar and +188.8 mL/+2.6% volume per household weekly; purchases for home consumption."
+      },
+      {
+        "id": "authors",
+        "role": "Author explanation",
+        "label": "University of Cambridge · correction statement",
+        "url": "https://www.epi.ims.cam.ac.uk/blog/2021/03/11/sugar-purchased-in-soft-drinks-fell-10-following-introduction-of-industry-levy/",
+        "dateLabel": "5 December 2023 correction to 11 March 2021 release",
+        "note": "Explains the incorrectly calculated and redundant weighting variable, and compares original with corrected results."
+      }
+    ]
+  },
+  {
+    "studyId": "10.1136/bmj.n254",
+    "topic": "Public health",
+    "status": "Retracted & republished",
+    "severity": "major",
+    "changeDate": "2023-12-05",
+    "timing": "Still distributed",
+    "change": "The BMJ retracted the paper after an incorrectly calculated, redundant weighting variable altered its policy-relevant results. The corrected study estimates 8 g (2.7%) less sugar purchased per household per week, rather than 30 g (about 10%), and 189 mL (2.6%) more soft drinks purchased, rather than no change.",
+    "importance": "The retained reduction is about 3.7 times the corrected estimate. This changes the magnitude of evidence presented for a politically contested tax policy; it does not show that the levy had no benefit.",
+    "scope": "The analysis concerns drinks bought to take home and an estimated counterfactual based on preannouncement trends, not all sugar consumption or directly measured health effects. The corrected study still finds lower sugar purchases and no increase in confectionery or alcohol purchases. These public pages predate the retraction. The retraction is from 2023, so this is an older correction with continuing public availability.",
+    "study": {
+      "title": "Changes in soft drinks purchased by British households associated with the UK soft drinks industry levy: controlled interrupted time series analysis",
+      "authors": "Pell et al.",
+      "journal": "The BMJ",
+      "year": 2021
+    },
+    "checked": "2026-11-13",
+    "reviewers": [
+      "root",
+      "verify_policy",
+      "verify_health",
+      "verify_methods"
+    ],
+    "priority": 20,
+    "occurrences": [],
+    "liveMethod": "Fresh live full public page and exact original-study hyperlink; indexed full primary BMJ retraction and indexed corrected study abstract/conclusion independently compared with Cambridge author statement. Direct BMJ and PMC opens encounter access challenges.",
+    "id": "austria-orf-sugar-tax",
+    "region": "Austria",
+    "use": "Public-service science reporting",
+    "entity": "ORF · science.ORF.at",
+    "title": "ORF retains a sugar-tax benefit estimate reduced substantially in the corrected study",
+    "publicDate": "11 March 2021 · currently available archive article",
+    "publicDateShort": "11 Mar 2021",
+    "claim": "ORF says a British household bought 30 g, or one-tenth, less sugar each week after the levy, with unchanged drink volumes, and presents the policy as a model for other countries.",
+    "quote": "Im März 2019 nahm ein Haushalt pro Woche 30 Gramm bzw. ein Zehntel weniger Zucker zu sich als vor der Getränkesteuer.",
+    "quoteSource": "article",
+    "sourceSection": "Zehn Prozent weniger · first paragraph",
+    "chain": "The article’s Studie hyperlink identifies BMJ n254, the exact paper named in the formal retraction. It describes the same dates and household panel, retains the affected 30 g/10% and unchanged-volume conclusions, and links the subsequently retracted accompanying editorial.",
+    "finder": "root",
+    "sources": [
+      {
+        "id": "article",
+        "role": "Still in use",
+        "label": "ORF · Steuer auf süße Getränke wirkt",
+        "url": "https://science.orf.at/stories/3205235/",
+        "dateLabel": "11 March 2021",
+        "note": "Headline, lead and Zehn Prozent weniger section retain the original estimate and unchanged-volume assertion. The page has an age banner but no visible retraction update."
+      },
+      {
+        "id": "notice",
+        "role": "Retraction",
+        "label": "The BMJ · formal retraction of Pell et al.",
+        "url": "https://www.bmj.com/content/383/bmj.p2705",
+        "dateLabel": "5 December 2023",
+        "note": "Explains that the data-preparation error changed main messages and policy implications, and identifies the replacement paper."
+      },
+      {
+        "id": "replacement",
+        "role": "Corrected replacement",
+        "label": "BMJ Open · corrected study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10711915/",
+        "dateLabel": "5 December 2023",
+        "note": "Reports -8 g/-2.7% sugar and +188.8 mL/+2.6% volume per household weekly; purchases for home consumption."
+      },
+      {
+        "id": "authors",
+        "role": "Author explanation",
+        "label": "University of Cambridge · correction statement",
+        "url": "https://www.epi.ims.cam.ac.uk/blog/2021/03/11/sugar-purchased-in-soft-drinks-fell-10-following-introduction-of-industry-levy/",
+        "dateLabel": "5 December 2023 correction to 11 March 2021 release",
+        "note": "Explains the incorrectly calculated and redundant weighting variable, and compares original with corrected results."
+      }
+    ]
   },
   {
     "id": "eu-retail-investment-inducements",
